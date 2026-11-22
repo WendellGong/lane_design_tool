@@ -1,0 +1,2125 @@
+{
+  "version": "1.1",
+  "meta": {
+    "name": "港口测试赛道-专科组",
+    "grid": 20,
+    "pixels_per_meter": 12,
+    "saved_at": "2026/11/22 23:00:00",
+    "updated_at": "2026-11-22 23:00:00",
+    "created_at": "2026-11-22 17:36:04",
+    "description": "《港口迷雾协同运输场景》专科组：保留路网、信号点、A/B 泊位与 y=1000 东段封路绕行，但取消全部 12 处施工窄口（断面恢复 7 m 双向通行）、取消 6 辆新增动态障碍（仅余场景原有 3 辆），不设 15 km/h 限速区，整体难度显著低于本科组基础版。必经点 el_mwrj5xwvo1lrw (4000,1000) 为必过项：未经过成绩记 0；经过后弹屏提示「请手动操作」并转手动驾驶。"
+  },
+  "view": {
+    "scale": 0.25088000000000005,
+    "tx": -393.0484965132964,
+    "ty": 8.719095011776744
+  },
+  "elements": [
+    {
+      "id": "j_r1c0",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "十字路口：上横路 与 西侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": -820,
+      "y": 1000
+    },
+    {
+      "id": "j_r1c1",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": true
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "十字路口：上横路 与 堆场东侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头；已开启斑马线与行人过街标线",
+      "h": 360,
+      "w": 360,
+      "x": 380,
+      "y": 1000
+    },
+    {
+      "id": "j_r1c3",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "十字路口：上横路 与 能源区东侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": 2800,
+      "y": 1000
+    },
+    {
+      "id": "j_r2c0",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": true
+      },
+      "note": "十字路口：中横路（中央路口所在） 与 西侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": -820,
+      "y": 1960
+    },
+    {
+      "id": "j_r2c1",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "十字路口：中横路（中央路口所在） 与 堆场东侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头；已开启斑马线与行人过街标线",
+      "h": 360,
+      "w": 360,
+      "x": 380,
+      "y": 1960
+    },
+    {
+      "id": "j_r2c2",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "十字路口：中横路（中央路口所在） 与 中央宽通道（堆场与能源区之间） 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": 1552,
+      "y": 1960
+    },
+    {
+      "id": "j_r2c3",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwri70temp8z9",
+      "note": "十字路口：中横路（中央路口所在） 与 能源区东侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": 2800,
+      "y": 1960
+    },
+    {
+      "id": "j_r2c4",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": false
+      },
+      "note": "十字路口：中横路（中央路口所在） 与 临港南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": 4000,
+      "y": 1960
+    },
+    {
+      "id": "el_h0_0_01",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 20,
+        "twoWay": false
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
+      "h": 240,
+      "w": 84,
+      "x": -1120,
+      "y": 120
+    },
+    {
+      "id": "el_h0_1_02",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": true
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
+      "h": 840,
+      "w": 84,
+      "x": -220,
+      "y": 120
+    },
+    {
+      "id": "el_h0_3_04",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 45.1667,
+        "twoWay": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：横向直道 560~1102（542px=45.2m）2 车道，两端严格对齐路口边缘",
+      "h": 542,
+      "w": 84,
+      "x": 831,
+      "y": 120
+    },
+    {
+      "id": "el_h0_4_05",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 51.3333,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：横向直道 2004~2620（616px=51.3m）2 车道，两端严格对齐路口边缘",
+      "h": 616,
+      "w": 84,
+      "x": 2312,
+      "y": 120
+    },
+    {
+      "id": "el_h1_0_06",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 20,
+        "twoWay": false
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
+      "h": 240,
+      "w": 84,
+      "x": -1120,
+      "y": 1000
+    },
+    {
+      "id": "el_h2_0_11",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 20,
+        "twoWay": true
+      },
+      "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
+      "h": 240,
+      "w": 84,
+      "x": -1120,
+      "y": 1960
+    },
+    {
+      "id": "el_h2_1_12",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
+      "h": 840,
+      "w": 84,
+      "x": -220,
+      "y": 1960
+    },
+    {
+      "id": "el_h2_4_15",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 45.1667,
+        "twoWay": false
+      },
+      "note": "补齐：横向直道 560~1102（542px=45.2m）2 车道，两端严格对齐路口边缘",
+      "h": 542,
+      "w": 84,
+      "x": 831,
+      "y": 1960
+    },
+    {
+      "id": "el_h3_0_16",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 20,
+        "twoWay": false
+      },
+      "gid": "g_mwrio3arxx3o7",
+      "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
+      "h": 240,
+      "w": 84,
+      "x": -1120,
+      "y": 2920
+    },
+    {
+      "id": "el_h3_1_17",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": false
+      },
+      "gid": "g_mwrio5jvpmkia",
+      "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
+      "h": 840,
+      "w": 84,
+      "x": -220,
+      "y": 2920
+    },
+    {
+      "id": "el_h3_2_18",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 67.6667,
+        "twoWay": false
+      },
+      "gid": "g_mwrio8nzcykj0",
+      "note": "补齐：横向直道 560~1372（812px=67.7m）2 车道，两端严格对齐路口边缘",
+      "h": 812,
+      "w": 84,
+      "x": 966,
+      "y": 2920
+    },
+    {
+      "id": "el_h3_3_19",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 74,
+        "twoWay": false
+      },
+      "gid": "g_mwrio8nzcykj0",
+      "note": "补齐：横向直道 1732~2620（888px=74.0m）2 车道，两端严格对齐路口边缘",
+      "h": 888,
+      "w": 84,
+      "x": 2176,
+      "y": 2920
+    },
+    {
+      "id": "el_h3_4_20",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": true
+      },
+      "gid": "g_mwrioawj31j3c",
+      "note": "补齐：横向直道 2980~3820（840px=70.0m）2 车道，两端严格对齐路口边缘",
+      "h": 840,
+      "w": 84,
+      "x": 3400,
+      "y": 2920
+    },
+    {
+      "id": "el_v0_1_21",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 43.333,
+        "twoWay": true
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "路段：路口间双向2车道直道，长43.333m",
+      "h": 520,
+      "w": 84,
+      "x": -820,
+      "y": 560
+    },
+    {
+      "id": "el_v0_2_22",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "note": "路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": -820,
+      "y": 1480
+    },
+    {
+      "id": "el_v0_3_23",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "note": "路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": -820,
+      "y": 2440
+    },
+    {
+      "id": "el_v1_1_24",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 43.333,
+        "twoWay": true
+      },
+      "note": "西侧南北向道路路段：路口间双向2车道直道，长43.333m",
+      "h": 520,
+      "w": 84,
+      "x": 380,
+      "y": 560
+    },
+    {
+      "id": "el_v1_2_25",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "note": "西侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 380,
+      "y": 1480
+    },
+    {
+      "id": "el_v1_3_26",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "note": "西侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 380,
+      "y": 2440
+    },
+    {
+      "id": "el_v2_3_29",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 4,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "堆场东侧南北向道路路段：路口间双向4车道直道，长50.0m",
+      "h": 600,
+      "w": 168,
+      "x": 1552,
+      "y": 2440
+    },
+    {
+      "id": "el_v3_1_30",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 43.333,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "中央宽通道（堆场与能源区之间）路段：路口间双向2车道直道，长43.333m",
+      "h": 520,
+      "w": 84,
+      "x": 2800,
+      "y": 560
+    },
+    {
+      "id": "el_v3_2_31",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "中央宽通道（堆场与能源区之间）路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 2800,
+      "y": 1480
+    },
+    {
+      "id": "el_v3_3_32",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "note": "中央宽通道（堆场与能源区之间）路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 2800,
+      "y": 2440
+    },
+    {
+      "id": "el_v4_1_33",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 43.333,
+        "twoWay": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "能源区东侧南北向道路路段：路口间双向2车道直道，长43.333m",
+      "h": 520,
+      "w": 84,
+      "x": 4000,
+      "y": 560
+    },
+    {
+      "id": "el_v4_2_34",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": false
+      },
+      "note": "能源区东侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 4000,
+      "y": 1480
+    },
+    {
+      "id": "el_v4_3_35",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "note": "能源区东侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 4000,
+      "y": 2440
+    },
+    {
+      "id": "el_mwri62qtnk1un",
+      "type": "lane",
+      "subtype": "variable_lane",
+      "rotation": 270,
+      "props": {
+        "laneW": 3.5,
+        "lanesIn": 2,
+        "lanesOut": 4,
+        "length_m": 22.5
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：中轴西侧 2↔4 车道渐变段 1102~1372，两端宽度分别对齐 84px 直道与 168px 中轴路口",
+      "h": 270,
+      "w": 168,
+      "x": 1237,
+      "y": 1960
+    },
+    {
+      "id": "el_mwri6tvpkjwvn",
+      "type": "lane",
+      "subtype": "variable_lane",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanesIn": 2,
+        "lanesOut": 4,
+        "length_m": 22.6667
+      },
+      "gid": "g_mwri70temp8z9",
+      "note": "补齐：中轴东侧 2↔4 车道渐变段 1732~2004，两端宽度分别对齐 84px 直道与 168px 中轴路口",
+      "h": 272,
+      "w": 168,
+      "x": 1868,
+      "y": 1960
+    },
+    {
+      "id": "el_mwrins2kcosud",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 0,
+      "props": {
+        "branchLanes": 4,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrio8nzcykj0",
+      "note": "丁字路口：北侧东西向道路 与 中央宽通道（堆场与能源区之间） 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 1552,
+      "y": 2920
+    },
+    {
+      "id": "el_mwrinyvoo8wgi",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 0,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrio3arxx3o7",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": -820,
+      "y": 2920
+    },
+    {
+      "id": "el_mwrio4jg389f9",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 0,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrio5jvpmkia",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 380,
+      "y": 2920
+    },
+    {
+      "id": "el_mwrio7ng1go9o",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 0,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrio8nzcykj0",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 2800,
+      "y": 2920
+    },
+    {
+      "id": "el_mwrio9hoshkdc",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 0,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrioawj31j3c",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 4000,
+      "y": 2920
+    },
+    {
+      "id": "el_mwrizovo0r4o5",
+      "type": "lane",
+      "subtype": "roundabout",
+      "rotation": 0,
+      "props": {
+        "entries": 4,
+        "laneW": 3.75,
+        "r0": 12,
+        "ringLanes": 3
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "互斥路口通行",
+      "h": 702,
+      "w": 702,
+      "x": 1552,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrj0lewhxgrk",
+      "type": "lane",
+      "subtype": "variable_lane",
+      "rotation": 180,
+      "props": {
+        "laneW": 3.5,
+        "lanesIn": 2,
+        "lanesOut": 4,
+        "length_m": 29.0833
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：中轴北段 2->4 可变车道 300~649，上端对齐顶行十字(120)下缘、下端对齐环岛上缘",
+      "h": 349,
+      "w": 168,
+      "x": 1552,
+      "y": 474.5
+    },
+    {
+      "id": "el_mwrj143t6tc2w",
+      "type": "lane",
+      "subtype": "variable_lane",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanesIn": 2,
+        "lanesOut": 4,
+        "length_m": 35.75
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：中轴南段 4->2 可变车道 1351~1780，上端对齐环岛下缘、下端对齐 j_r2c2 上缘",
+      "h": 429,
+      "w": 168,
+      "x": 1552,
+      "y": 1565.5
+    },
+    {
+      "id": "el_mwrj2pntv36r0",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 53.5,
+        "twoWay": true
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "补齐：横向直道 560~1202（642px=53.5m）2 车道，两端严格对齐路口边缘",
+      "h": 642,
+      "w": 84,
+      "x": 881,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrj3qvdpt668",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": true
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "十字路口：上横路 与 西侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": -820,
+      "y": 120
+    },
+    {
+      "id": "el_mwrj3uk9sg9t9",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": true
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "十字路口：上横路 与 堆场东侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头；已开启斑马线与行人过街标线",
+      "h": 360,
+      "w": 360,
+      "x": 380,
+      "y": 120
+    },
+    {
+      "id": "el_mwrj3yrgp5qcv",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "zebra": false
+      },
+      "gid": "g_mwrl3b2o0izac",
+      "note": "十字路口：中横路（中央路口所在） 与 中央宽通道（堆场与能源区之间） 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": 1552,
+      "y": 119.99999999999999
+    },
+    {
+      "id": "el_mwrj5e4mb6ynx",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "十字路口：上横路 与 临港南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": 4000,
+      "y": 120
+    },
+    {
+      "id": "el_mwrj8f2sneme2",
+      "type": "lane",
+      "subtype": "parking",
+      "rotation": 90,
+      "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
+        "spaces": 3,
+        "stallL": 5.3,
+        "stallW": 2.5
+      },
+      "note": "普通停车区（非任务泊位）：中行东端",
+      "h": 135.60000000000002,
+      "w": 90,
+      "x": 4247.8,
+      "y": 120
+    },
+    {
+      "id": "el_mwrj8ozwernkn",
+      "type": "lane",
+      "subtype": "parking",
+      "rotation": 90,
+      "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
+        "spaces": 3,
+        "stallL": 5.3,
+        "stallW": 2.5
+      },
+      "note": "A 泊位（Berth_A，200 分）：中央路口东出口正对的东端泊位",
+      "h": 135.60000000000002,
+      "w": 90,
+      "x": 4247.8,
+      "y": 1960
+    },
+    {
+      "id": "el_mwrj8tuwo5zc3",
+      "type": "lane",
+      "subtype": "parking",
+      "rotation": 90,
+      "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
+        "spaces": 3,
+        "stallL": 5.3,
+        "stallW": 2.5
+      },
+      "note": "B 泊位（Berth_B，200 分）：底行东端泊位",
+      "h": 135.60000000000002,
+      "w": 90,
+      "x": 4247.8,
+      "y": 2920
+    },
+    {
+      "id": "el_mwrj9168sjc2q",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": -90,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 4000,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrkyx3hku15n",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 4,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "gid": "g_mwrl3b2o0izac",
+      "note": "堆场东侧南北向道路路段：路口间双向4车道直道，长50.0m",
+      "h": 600,
+      "w": 168,
+      "x": 1552,
+      "y": -360
+    },
+    {
+      "id": "el_mwrl026f20ibd",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 59.6667,
+        "twoWay": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：横向直道 1904~2620（716px=59.7m）2 车道，两端严格对齐路口边缘",
+      "h": 716,
+      "w": 84,
+      "x": 2262,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrl0k2gyb03u",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": false
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
+      "h": 840,
+      "w": 84,
+      "x": -220,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrl0s7wqy3jc",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：横向直道 2980~3820（840px=70.0m）2 车道，两端严格对齐路口边缘",
+      "h": 840,
+      "w": 84,
+      "x": 3400,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrl1drktp5wj",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": false
+      },
+      "note": "西侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 380,
+      "y": -360
+    },
+    {
+      "id": "el_mwrl1jiscgk07",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 180,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 380,
+      "y": -840
+    },
+    {
+      "id": "el_mwrl1vnx1kxsu",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 180,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": -820,
+      "y": -840
+    },
+    {
+      "id": "el_mwrl2n7svc2ps",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 20,
+        "twoWay": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
+      "h": 240,
+      "w": 84,
+      "x": -1120,
+      "y": -840
+    },
+    {
+      "id": "el_mwrl2qfna6fw0",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "gid": "g_mwrj3sfsb151x",
+      "note": "西侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": -820,
+      "y": -360
+    },
+    {
+      "id": "el_mwrl2vd08k75f",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "西侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 4000,
+      "y": -360
+    },
+    {
+      "id": "el_mwrl2zqwi4ly9",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 180,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 4000,
+      "y": -840
+    },
+    {
+      "id": "el_mwrl33wty6gvc",
+      "type": "lane",
+      "subtype": "parking",
+      "rotation": 90,
+      "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
+        "spaces": 3,
+        "stallL": 5.3,
+        "stallW": 2.5
+      },
+      "note": "普通停车区（非任务泊位）：顶行东端，仅作场景收头",
+      "h": 135.60000000000002,
+      "w": 90,
+      "x": 4247.8,
+      "y": -840
+    },
+    {
+      "id": "el_mwrl39q2pdb6c",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 180,
+      "props": {
+        "branchLanes": 4,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrl3b2o0izac",
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 1552,
+      "y": -840
+    },
+    {
+      "id": "el_mwrl3jt90wga9",
+      "type": "lane",
+      "subtype": "crossroads",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 1,
+        "zebra": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "十字路口：上横路 与 能源区东侧南北向道路 平面交叉，双向1车道，含斑马线与导向箭头",
+      "h": 360,
+      "w": 360,
+      "x": 2800,
+      "y": 120
+    },
+    {
+      "id": "el_mwrl3oqcgpykb",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 0,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 50,
+        "twoWay": true
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "西侧南北向道路路段：路口间双向2车道直道，长50.0m",
+      "h": 600,
+      "w": 84,
+      "x": 2800,
+      "y": -360
+    },
+    {
+      "id": "el_mwrl3r6c7tc0w",
+      "type": "lane",
+      "subtype": "t_junction",
+      "rotation": 180,
+      "props": {
+        "branchLanes": 2,
+        "laneW": 3.5,
+        "mainLanes": 1,
+        "zebra": false
+      },
+      "note": "丁字路口：北侧东西向道路 与 西侧南北向道路 相接，支路自南接入，含斑马线",
+      "h": 360,
+      "w": 360,
+      "x": 2800,
+      "y": -840
+    },
+    {
+      "id": "el_mwrl3xaxx4q2d",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": false
+      },
+      "gid": "g_mwrizff1pqp8f",
+      "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
+      "h": 840,
+      "w": 84,
+      "x": -220,
+      "y": -841
+    },
+    {
+      "id": "el_fix_h0_s0",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 67.6667,
+        "twoWay": false
+      },
+      "note": "补齐：横向直道 560~1372（812px=67.7m），连通相邻路口",
+      "h": 812,
+      "w": 84,
+      "x": 966,
+      "y": -841
+    },
+    {
+      "id": "el_fix_h0_s1",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 74,
+        "twoWay": true
+      },
+      "note": "补齐：横向直道 1732~2620（888px=74.0m），连通相邻路口",
+      "h": 888,
+      "w": 84,
+      "x": 2176,
+      "y": -840
+    },
+    {
+      "id": "el_fix_h0_s2",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": true
+      },
+      "note": "补齐：横向直道 2980~3820（840px=70.0m），连通相邻路口",
+      "h": 840,
+      "w": 84,
+      "x": 3400,
+      "y": -840
+    },
+    {
+      "id": "el_fix_h1_gw",
+      "type": "lane",
+      "subtype": "variable_lane",
+      "rotation": 270,
+      "props": {
+        "laneW": 3.5,
+        "lanesIn": 2,
+        "lanesOut": 4,
+        "length_m": 22.5
+      },
+      "note": "补齐：中轴西侧 2↔4 车道渐变段 1102~1372，消除 84px 直道与 168px 中轴路口之间的台阶",
+      "h": 270,
+      "w": 168,
+      "x": 1237,
+      "y": 120
+    },
+    {
+      "id": "el_fix_h1_ge",
+      "type": "lane",
+      "subtype": "variable_lane",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanesIn": 2,
+        "lanesOut": 4,
+        "length_m": 22.6667
+      },
+      "note": "补齐：中轴东侧 2↔4 车道渐变段 1732~2004，消除 84px 直道与 168px 中轴路口之间的台阶",
+      "h": 272,
+      "w": 168,
+      "x": 1868,
+      "y": 120
+    },
+    {
+      "id": "el_fix_h1_s5",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": true
+      },
+      "note": "补齐：横向直道 2980~3820（840px=70.0m），连通相邻路口",
+      "h": 840,
+      "w": 84,
+      "x": 3400,
+      "y": 120
+    },
+    {
+      "id": "el_fix_h3_s6",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 51.3333,
+        "twoWay": false
+      },
+      "note": "补齐：横向直道 2004~2620（616px=51.3m），连通相邻路口",
+      "h": 616,
+      "w": 84,
+      "x": 2312,
+      "y": 1960
+    },
+    {
+      "id": "el_fix_h3_s7",
+      "type": "lane",
+      "subtype": "straight",
+      "rotation": 90,
+      "props": {
+        "laneW": 3.5,
+        "lanes": 2,
+        "length_m": 70,
+        "twoWay": true
+      },
+      "note": "补齐：横向直道 2980~3820（840px=70.0m），连通相邻路口",
+      "h": 840,
+      "w": 84,
+      "x": 3400,
+      "y": 1960
+    },
+    {
+      "id": "fac_park_w1",
+      "type": "lane",
+      "subtype": "parking",
+      "x": 270.2,
+      "y": 560.0,
+      "rotation": 90,
+      "props": {
+        "spaces": 3,
+        "stallW": 2.5,
+        "stallL": 5.3,
+        "aisleW": 6.0,
+        "layout": "perpendicular"
+      },
+      "note": "路侧停车区 1：接西侧南北向道路西缘（x=338），3 个垂直式国标车位",
+      "w": 90.0,
+      "h": 135.6
+    },
+    {
+      "id": "fac_park_w2",
+      "type": "lane",
+      "subtype": "parking",
+      "x": 270.2,
+      "y": 1480.0,
+      "rotation": 90,
+      "props": {
+        "spaces": 3,
+        "stallW": 2.5,
+        "stallL": 5.3,
+        "aisleW": 6.0,
+        "layout": "perpendicular"
+      },
+      "note": "路侧停车区 2：接西侧南北向道路西缘，3 个垂直式国标车位",
+      "w": 90.0,
+      "h": 135.6
+    },
+    {
+      "id": "fac_park_e1",
+      "type": "lane",
+      "subtype": "parking",
+      "x": 3200.0,
+      "y": -927.0,
+      "rotation": 90,
+      "props": {
+        "spaces": 3,
+        "stallW": 2.5,
+        "stallL": 5.3,
+        "aisleW": 6.0,
+        "layout": "perpendicular"
+      },
+      "note": "顶行北侧停车区：接上横路北缘（y=-882），3 个垂直式国标车位",
+      "w": 90.0,
+      "h": 135.6
+    },
+    {
+      "id": "el_mwriwq1kmzbh7",
+      "type": "car",
+      "subtype": "truck",
+      "rotation": 90,
+      "props": {
+        "move": false,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#e8c46a",
+        "height_m": 3.4,
+        "init_speed": 0,
+        "length_m": 9.5,
+        "mass": 12000,
+        "max_accel": 1.2,
+        "max_decel": 5,
+        "max_speed": 100,
+        "mode": "L2",
+        "turn_radius": 9,
+        "width_m": 2.5
+      },
+      "note": "运输车1",
+      "h": 64,
+      "w": 30,
+      "x": -1200,
+      "y": 140
+    },
+    {
+      "id": "el_mwrixnrn1acyo",
+      "type": "car",
+      "subtype": "sedan",
+      "rotation": 90,
+      "props": {
+        "move": false,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#5eb8ff",
+        "height_m": 1.45,
+        "init_speed": 0,
+        "length_m": 4.7,
+        "mass": 1500,
+        "max_accel": 3,
+        "max_decel": 8,
+        "max_speed": 180,
+        "mode": "L4",
+        "turn_radius": 5.5,
+        "width_m": 1.82
+      },
+      "note": "信号车2",
+      "h": 46,
+      "w": 26,
+      "x": -1200,
+      "y": 1020
+    },
+    {
+      "id": "el_mwrixzgn7zlze",
+      "type": "car",
+      "subtype": "sedan",
+      "rotation": 90,
+      "props": {
+        "move": false,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#5eb8ff",
+        "height_m": 1.45,
+        "init_speed": 0,
+        "length_m": 4.7,
+        "mass": 1500,
+        "max_accel": 3,
+        "max_decel": 8,
+        "max_speed": 180,
+        "mode": "L4",
+        "turn_radius": 5.5,
+        "width_m": 1.82
+      },
+      "note": "信号车3",
+      "h": 46,
+      "w": 26,
+      "x": -1200,
+      "y": 2940
+    },
+    {
+      "id": "el_mwrj75wort5pw",
+      "type": "car",
+      "subtype": "truck",
+      "rotation": -90,
+      "props": {
+        "move": false,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#e8c46a",
+        "height_m": 3.4,
+        "init_speed": 0,
+        "length_m": 9.5,
+        "mass": 12000,
+        "max_accel": 1.2,
+        "max_decel": 5,
+        "max_speed": 100,
+        "mode": "L2",
+        "turn_radius": 9,
+        "width_m": 2.5
+      },
+      "note": "运输车2",
+      "h": 64,
+      "w": 30,
+      "x": -1200,
+      "y": 1980
+    },
+    {
+      "id": "el_mwrltlpv0ka99",
+      "type": "car",
+      "subtype": "sedan",
+      "rotation": 90,
+      "props": {
+        "move": false,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#5eb8ff",
+        "height_m": 1.45,
+        "init_speed": 0,
+        "length_m": 4.7,
+        "mass": 1500,
+        "max_accel": 3,
+        "max_decel": 8,
+        "max_speed": 180,
+        "mode": "L4",
+        "turn_radius": 5.5,
+        "width_m": 1.82
+      },
+      "note": "信号车1",
+      "h": 46,
+      "w": 26,
+      "x": -1200,
+      "y": -820
+    },
+    {
+      "id": "el_mwrmapluvu1g0",
+      "type": "car",
+      "subtype": "two_wheeler",
+      "rotation": 0,
+      "props": {
+        "move": true,
+        "moveSpeed": 10,
+        "moveDistance": 20,
+        "color": "#f0946b",
+        "height_m": 1.1,
+        "init_speed": 0,
+        "length_m": 2,
+        "mass": 160,
+        "max_accel": 3.5,
+        "max_decel": 7,
+        "max_speed": 80,
+        "mode": "manual",
+        "turn_radius": 2.5,
+        "width_m": 0.75
+      },
+      "note": "",
+      "h": 38,
+      "w": 16,
+      "x": -751,
+      "y": 260
+    },
+    {
+      "id": "el_mwrmbxuu8h78o",
+      "type": "car",
+      "subtype": "two_wheeler",
+      "rotation": 0,
+      "props": {
+        "move": true,
+        "moveSpeed": 10,
+        "moveDistance": 20,
+        "color": "#f0946b",
+        "height_m": 1.1,
+        "init_speed": 0,
+        "length_m": 2,
+        "mass": 160,
+        "max_accel": 3.5,
+        "max_decel": 7,
+        "max_speed": 80,
+        "mode": "manual",
+        "turn_radius": 2.5,
+        "width_m": 0.75
+      },
+      "note": "",
+      "h": 38,
+      "w": 16,
+      "x": -740,
+      "y": 2080
+    },
+    {
+      "id": "el_mwrmf0gyn6tn2",
+      "type": "car",
+      "subtype": "suv",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#7be0c3",
+        "height_m": 1.78,
+        "init_speed": 0,
+        "length_m": 4.85,
+        "mass": 1900,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "max_speed": 190,
+        "mode": "L4",
+        "turn_radius": 6,
+        "width_m": 1.93
+      },
+      "note": "",
+      "h": 48,
+      "w": 28,
+      "x": 40,
+      "y": -820
+    },
+    {
+      "id": "fac_ped1",
+      "type": "car",
+      "subtype": "pedestrian",
+      "x": 320.0,
+      "y": 52.0,
+      "rotation": 0,
+      "props": {
+        "shirt": "#4a90d9",
+        "pose": "walk"
+      },
+      "note": "行人：上横路北侧人行道，距路缘 13px，位于斑马线西侧",
+      "w": 10.0,
+      "h": 22.0
+    },
+    {
+      "id": "fac_ped2",
+      "type": "car",
+      "subtype": "pedestrian",
+      "x": 320.0,
+      "y": 1900.0,
+      "rotation": 0,
+      "props": {
+        "shirt": "#d97b4a",
+        "pose": "stand"
+      },
+      "note": "行人：中横路北侧人行道等待过街",
+      "w": 10.0,
+      "h": 22.0
+    },
+    {
+      "id": "fac_car_park",
+      "type": "car",
+      "subtype": "sedan",
+      "x": 270.0,
+      "y": 545.0,
+      "rotation": 90,
+      "props": {
+        "move": false,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#5eb8ff",
+        "height_m": 1.45,
+        "init_speed": 0,
+        "length_m": 4.7,
+        "mass": 1500,
+        "max_accel": 3,
+        "max_decel": 8,
+        "max_speed": 180,
+        "mode": "L4",
+        "turn_radius": 5.5,
+        "width_m": 1.82
+      },
+      "note": "路侧停车区 1 内停放的轿车（非任务车辆，静止）",
+      "w": 26.0,
+      "h": 46.0
+    },
+    {
+      "id": "el_mwriyu84iouoh",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": 1552,
+      "y": 1960
+    },
+    {
+      "id": "el_mwrj26oe2lhkg",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": 1552,
+      "y": 996
+    },
+    {
+      "id": "el_mwrj4kiwzfh85",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": 1557,
+      "y": 118
+    },
+    {
+      "id": "el_mwrj7exdydn9y",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": 2796,
+      "y": 1960
+    },
+    {
+      "id": "el_mwrlzotnn7kcc",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": 1552,
+      "y": -840
+    },
+    {
+      "id": "el_mwrlzxliiwjl7",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": 1560,
+      "y": 2920
+    },
+    {
+      "id": "el_mwrmconqlzx0r",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": -820,
+      "y": 1000
+    },
+    {
+      "id": "fac_l0_sigA",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "x": 316.0,
+      "y": 33.0,
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "上横路 × 西侧南北向道路：西北角机动车信号灯，距路缘 8px",
+      "w": 28.0,
+      "h": 74.0
+    },
+    {
+      "id": "fac_l0_sigB",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "x": 444.0,
+      "y": 207.0,
+      "rotation": 180,
+      "props": {
+        "active": "green"
+      },
+      "note": "东南角对向机动车信号灯",
+      "w": 28.0,
+      "h": 74.0
+    },
+    {
+      "id": "fac_l1_sigA",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "x": 316.0,
+      "y": 913.0,
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "西北角机动车信号灯",
+      "w": 28.0,
+      "h": 74.0
+    },
+    {
+      "id": "fac_l1_sigB",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "x": 444.0,
+      "y": 1087.0,
+      "rotation": 180,
+      "props": {
+        "active": "green"
+      },
+      "note": "东南角对向机动车信号灯",
+      "w": 28.0,
+      "h": 74.0
+    },
+    {
+      "id": "fac_l2_sigA",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "x": 316.0,
+      "y": 1873.0,
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "西北角机动车信号灯",
+      "w": 28.0,
+      "h": 74.0
+    },
+    {
+      "id": "fac_l2_sigB",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "x": 444.0,
+      "y": 2047.0,
+      "rotation": 180,
+      "props": {
+        "active": "green"
+      },
+      "note": "东南角对向机动车信号灯",
+      "w": 28.0,
+      "h": 74.0
+    },
+    {
+      "id": "fac_l0_limit",
+      "type": "sign",
+      "subtype": "ban_speed",
+      "x": 516.0,
+      "y": 194.0,
+      "rotation": 0,
+      "props": {
+        "limit": 20
+      },
+      "note": "上横路西行进口（路口东侧 94px）限速 20 km/h",
+      "w": 44.0,
+      "h": 44.0
+    },
+    {
+      "id": "fac_l1_limit",
+      "type": "sign",
+      "subtype": "ban_speed",
+      "x": 516.0,
+      "y": 1074.0,
+      "rotation": 0,
+      "props": {
+        "limit": 20
+      },
+      "note": "降速进口限速 20 km/h",
+      "w": 44.0,
+      "h": 44.0
+    },
+    {
+      "id": "fac_l2_limit",
+      "type": "sign",
+      "subtype": "ban_speed",
+      "x": 516.0,
+      "y": 2034.0,
+      "rotation": 0,
+      "props": {
+        "limit": 20
+      },
+      "note": "中横路西行进口限速 20 km/h",
+      "w": 44.0,
+      "h": 44.0
+    },
+    {
+      "id": "fac_t0_giveway",
+      "type": "sign",
+      "subtype": "ban_give_way",
+      "x": 2876.0,
+      "y": -700.0,
+      "rotation": 0,
+      "props": {},
+      "note": "支路（自南接入）减速让行标志，距支路东缘 10px，主路优先",
+      "w": 48.0,
+      "h": 48.0
+    },
+    {
+      "id": "fac_t0_danger",
+      "type": "sign",
+      "subtype": "warn_danger",
+      "x": 2876.0,
+      "y": -560.0,
+      "rotation": 0,
+      "props": {},
+      "note": "支路进入主路前的注意危险警告",
+      "w": 46.0,
+      "h": 46.0
+    },
+    {
+      "id": "el_mwrj5xwvo1lrw",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0,
+      "props": {
+        "checkpoint": "mandatory",
+        "manual_drive": true,
+        "hint": "请手动操作",
+        "hint_delay": 3,
+        "hint_duration": 5
+      },
+      "note": "必经点（专科组必过项）：未经过该点成绩记 0；经过后立即弹屏提示「请手动操作」，车辆转入手动驾驶完成剩余任务",
+      "h": 28,
+      "w": 24,
+      "x": 4000,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrlxwmabhnrr",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0,
+      "props": {},
+      "note": "信号点1，用于确认终点信息；分3个阶段，step1会给出对应的停车坪1的位置，step2会给出对应停车坪2的位置，step3会给出对应停车slot1，2的具体位置",
+      "h": 28,
+      "w": 24,
+      "x": 1580,
+      "y": -400
+    },
+    {
+      "id": "el_mwrm0avucgmn0",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0,
+      "props": {},
+      "note": "信号点2，用于确认终点信息；分3个阶段，step1会给出对应的停车坪1的位置，step2会给出对应停车坪2的位置，step3会给出对应停车slot1，2的具体位置",
+      "h": 28,
+      "w": 24,
+      "x": 1520,
+      "y": 2460
+    },
+    {
+      "id": "el_mwrm3e8fcewaq",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0,
+      "props": {},
+      "note": "信号点3，用于确认终点信息；分3个阶段，step1会给出对应的停车坪1的位置，step2会给出对应停车坪2的位置，step3会给出对应停车slot1，2的具体位置",
+      "h": 28,
+      "w": 24,
+      "x": 1720,
+      "y": 1000
+    },
+    {
+      "id": "el_mwrm830zcqhfq",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 24,
+      "x": -540,
+      "y": -820
+    },
+    {
+      "id": "el_mwrm8o8dmjasd",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 270,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 46,
+      "x": 1320,
+      "y": -840
+    },
+    {
+      "id": "ob_close_fence",
+      "type": "obstacle",
+      "subtype": "fence",
+      "rotation": 90,
+      "props": {},
+      "note": "施工封闭：y=1000 东段 2980~3820 整幅封闭，动态路障即设于此；所有车辆必须改由 x=2800 / x=4000 纵列绕行，单程增加约 260m",
+      "h": 32,
+      "w": 96,
+      "x": 3500,
+      "y": 1000
+    },
+    {
+      "id": "ob_close_c1",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "封闭区西端锥桶，提示改道",
+      "h": 28,
+      "w": 24,
+      "x": 3300,
+      "y": 984
+    },
+    {
+      "id": "ob_close_c2",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "封闭区西端锥桶，提示改道",
+      "h": 28,
+      "w": 24,
+      "x": 3300,
+      "y": 1016
+    },
+    {
+      "id": "ob_close_c3",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "封闭区东端锥桶，提示改道",
+      "h": 28,
+      "w": 24,
+      "x": 3700,
+      "y": 984
+    },
+    {
+      "id": "ob_close_c4",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "封闭区东端锥桶，提示改道",
+      "h": 28,
+      "w": 24,
+      "x": 3700,
+      "y": 1016
+    },
+    {
+      "id": "fac_t0_beaconA",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "x": 2650.0,
+      "y": -776.0,
+      "rotation": 0,
+      "props": {},
+      "note": "丁字路口西南角警示灯，位于主路南缘外 8px",
+      "w": 24.0,
+      "h": 28.0
+    },
+    {
+      "id": "fac_t0_beaconB",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "x": 2950.0,
+      "y": -776.0,
+      "rotation": 0,
+      "props": {},
+      "note": "丁字路口东南角警示灯",
+      "w": 24.0,
+      "h": 28.0
+    }
+  ]
+}
