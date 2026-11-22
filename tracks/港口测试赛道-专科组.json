@@ -4,15 +4,14 @@
     "name": "港口测试赛道-专科组",
     "grid": 20,
     "pixels_per_meter": 12,
-    "saved_at": "2026/11/22 23:00:00",
-    "updated_at": "2026-11-22 23:00:00",
-    "created_at": "2026-11-22 17:36:04",
-    "description": "《港口迷雾协同运输场景》专科组：保留路网、信号点、A/B 泊位与 y=1000 东段封路绕行，但取消全部 12 处施工窄口（断面恢复 7 m 双向通行）、取消 6 辆新增动态障碍（仅余场景原有 3 辆），不设 15 km/h 限速区，整体难度显著低于本科组基础版。必经点 el_mwrj5xwvo1lrw (4000,1000) 为必过项：未经过成绩记 0；经过后弹屏提示「请手动操作」并转手动驾驶。"
+    "saved_at": "2026/11/22 20:45:35",
+    "updated_at": "2026-11-22 20:45:35",
+    "created_at": "2026-11-22 20:45:35"
   },
   "view": {
-    "scale": 0.25088000000000005,
-    "tx": -393.0484965132964,
-    "ty": 8.719095011776744
+    "scale": 0.22400000000000003,
+    "tx": 334.5635296574431,
+    "ty": 234.85237754116633
   },
   "elements": [
     {
@@ -176,7 +175,7 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": true
+        "twoWay": false
       },
       "gid": "g_mwrj3sfsb151x",
       "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -493,7 +492,7 @@
         "laneW": 3.5,
         "lanes": 4,
         "length_m": 50,
-        "twoWay": true
+        "twoWay": false
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "堆场东侧南北向道路路段：路口间双向4车道直道，长50.0m",
@@ -954,7 +953,7 @@
         "laneW": 3.5,
         "lanes": 4,
         "length_m": 50,
-        "twoWay": true
+        "twoWay": false
       },
       "gid": "g_mwrl3b2o0izac",
       "note": "堆场东侧南北向道路路段：路口间双向4车道直道，长50.0m",
@@ -1008,7 +1007,7 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": true
+        "twoWay": false
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 2980~3820（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -1388,55 +1387,37 @@
       "id": "fac_park_w1",
       "type": "lane",
       "subtype": "parking",
-      "x": 270.2,
-      "y": 560.0,
       "rotation": 90,
       "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
         "spaces": 3,
-        "stallW": 2.5,
         "stallL": 5.3,
-        "aisleW": 6.0,
-        "layout": "perpendicular"
+        "stallW": 2.5
       },
       "note": "路侧停车区 1：接西侧南北向道路西缘（x=338），3 个垂直式国标车位",
-      "w": 90.0,
-      "h": 135.6
+      "h": 135.6,
+      "w": 90,
+      "x": 270.2,
+      "y": 560
     },
     {
       "id": "fac_park_w2",
       "type": "lane",
       "subtype": "parking",
-      "x": 270.2,
-      "y": 1480.0,
       "rotation": 90,
       "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
         "spaces": 3,
-        "stallW": 2.5,
         "stallL": 5.3,
-        "aisleW": 6.0,
-        "layout": "perpendicular"
+        "stallW": 2.5
       },
       "note": "路侧停车区 2：接西侧南北向道路西缘，3 个垂直式国标车位",
-      "w": 90.0,
-      "h": 135.6
-    },
-    {
-      "id": "fac_park_e1",
-      "type": "lane",
-      "subtype": "parking",
-      "x": 3200.0,
-      "y": -927.0,
-      "rotation": 90,
-      "props": {
-        "spaces": 3,
-        "stallW": 2.5,
-        "stallL": 5.3,
-        "aisleW": 6.0,
-        "layout": "perpendicular"
-      },
-      "note": "顶行北侧停车区：接上横路北缘（y=-882），3 个垂直式国标车位",
-      "w": 90.0,
-      "h": 135.6
+      "h": 135.6,
+      "w": 90,
+      "x": 270.2,
+      "y": 1480
     },
     {
       "id": "el_mwriwq1kmzbh7",
@@ -1493,87 +1474,6 @@
       "y": 1020
     },
     {
-      "id": "el_mwrixzgn7zlze",
-      "type": "car",
-      "subtype": "sedan",
-      "rotation": 90,
-      "props": {
-        "move": false,
-        "moveSpeed": 30,
-        "moveDistance": 50,
-        "color": "#5eb8ff",
-        "height_m": 1.45,
-        "init_speed": 0,
-        "length_m": 4.7,
-        "mass": 1500,
-        "max_accel": 3,
-        "max_decel": 8,
-        "max_speed": 180,
-        "mode": "L4",
-        "turn_radius": 5.5,
-        "width_m": 1.82
-      },
-      "note": "信号车3",
-      "h": 46,
-      "w": 26,
-      "x": -1200,
-      "y": 2940
-    },
-    {
-      "id": "el_mwrj75wort5pw",
-      "type": "car",
-      "subtype": "truck",
-      "rotation": -90,
-      "props": {
-        "move": false,
-        "moveSpeed": 30,
-        "moveDistance": 50,
-        "color": "#e8c46a",
-        "height_m": 3.4,
-        "init_speed": 0,
-        "length_m": 9.5,
-        "mass": 12000,
-        "max_accel": 1.2,
-        "max_decel": 5,
-        "max_speed": 100,
-        "mode": "L2",
-        "turn_radius": 9,
-        "width_m": 2.5
-      },
-      "note": "运输车2",
-      "h": 64,
-      "w": 30,
-      "x": -1200,
-      "y": 1980
-    },
-    {
-      "id": "el_mwrltlpv0ka99",
-      "type": "car",
-      "subtype": "sedan",
-      "rotation": 90,
-      "props": {
-        "move": false,
-        "moveSpeed": 30,
-        "moveDistance": 50,
-        "color": "#5eb8ff",
-        "height_m": 1.45,
-        "init_speed": 0,
-        "length_m": 4.7,
-        "mass": 1500,
-        "max_accel": 3,
-        "max_decel": 8,
-        "max_speed": 180,
-        "mode": "L4",
-        "turn_radius": 5.5,
-        "width_m": 1.82
-      },
-      "note": "信号车1",
-      "h": 46,
-      "w": 26,
-      "x": -1200,
-      "y": -820
-    },
-    {
       "id": "el_mwrmapluvu1g0",
       "type": "car",
       "subtype": "two_wheeler",
@@ -1604,11 +1504,11 @@
       "id": "el_mwrmbxuu8h78o",
       "type": "car",
       "subtype": "two_wheeler",
-      "rotation": 0,
+      "rotation": 90,
       "props": {
         "move": true,
         "moveSpeed": 10,
-        "moveDistance": 20,
+        "moveDistance": 40,
         "color": "#f0946b",
         "height_m": 1.1,
         "init_speed": 0,
@@ -1624,8 +1524,8 @@
       "note": "",
       "h": 38,
       "w": 16,
-      "x": -740,
-      "y": 2080
+      "x": -440,
+      "y": 1020
     },
     {
       "id": "el_mwrmf0gyn6tn2",
@@ -1658,38 +1558,36 @@
       "id": "fac_ped1",
       "type": "car",
       "subtype": "pedestrian",
-      "x": 320.0,
-      "y": 52.0,
       "rotation": 0,
       "props": {
-        "shirt": "#4a90d9",
-        "pose": "walk"
+        "pose": "walk",
+        "shirt": "#4a90d9"
       },
       "note": "行人：上横路北侧人行道，距路缘 13px，位于斑马线西侧",
-      "w": 10.0,
-      "h": 22.0
+      "h": 22,
+      "w": 10,
+      "x": 320,
+      "y": 52
     },
     {
       "id": "fac_ped2",
       "type": "car",
       "subtype": "pedestrian",
-      "x": 320.0,
-      "y": 1900.0,
       "rotation": 0,
       "props": {
-        "shirt": "#d97b4a",
-        "pose": "stand"
+        "pose": "stand",
+        "shirt": "#d97b4a"
       },
       "note": "行人：中横路北侧人行道等待过街",
-      "w": 10.0,
-      "h": 22.0
+      "h": 22,
+      "w": 10,
+      "x": 320,
+      "y": 1900
     },
     {
       "id": "fac_car_park",
       "type": "car",
       "subtype": "sedan",
-      "x": 270.0,
-      "y": 545.0,
       "rotation": 90,
       "props": {
         "move": false,
@@ -1708,8 +1606,10 @@
         "width_m": 1.82
       },
       "note": "路侧停车区 1 内停放的轿车（非任务车辆，静止）",
-      "w": 26.0,
-      "h": 46.0
+      "h": 46,
+      "w": 26,
+      "x": 270,
+      "y": 545
     },
     {
       "id": "el_mwriyu84iouoh",
@@ -1813,151 +1713,151 @@
       "id": "fac_l0_sigA",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 316.0,
-      "y": 33.0,
       "rotation": 0,
       "props": {
         "active": "green"
       },
       "note": "上横路 × 西侧南北向道路：西北角机动车信号灯，距路缘 8px",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 316,
+      "y": 33
     },
     {
       "id": "fac_l0_sigB",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 444.0,
-      "y": 207.0,
       "rotation": 180,
       "props": {
         "active": "green"
       },
       "note": "东南角对向机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 444,
+      "y": 207
     },
     {
       "id": "fac_l1_sigA",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 316.0,
-      "y": 913.0,
       "rotation": 0,
       "props": {
         "active": "green"
       },
       "note": "西北角机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 316,
+      "y": 913
     },
     {
       "id": "fac_l1_sigB",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 444.0,
-      "y": 1087.0,
       "rotation": 180,
       "props": {
         "active": "green"
       },
       "note": "东南角对向机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 444,
+      "y": 1087
     },
     {
       "id": "fac_l2_sigA",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 316.0,
-      "y": 1873.0,
       "rotation": 0,
       "props": {
         "active": "green"
       },
       "note": "西北角机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 316,
+      "y": 1873
     },
     {
       "id": "fac_l2_sigB",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 444.0,
-      "y": 2047.0,
       "rotation": 180,
       "props": {
         "active": "green"
       },
       "note": "东南角对向机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 444,
+      "y": 2047
     },
     {
       "id": "fac_l0_limit",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 516.0,
-      "y": 194.0,
       "rotation": 0,
       "props": {
         "limit": 20
       },
       "note": "上横路西行进口（路口东侧 94px）限速 20 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 516,
+      "y": 194
     },
     {
       "id": "fac_l1_limit",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 516.0,
-      "y": 1074.0,
       "rotation": 0,
       "props": {
-        "limit": 20
+        "limit": 40
       },
-      "note": "降速进口限速 20 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "note": "降速进口限速 40 km/h",
+      "h": 44,
+      "w": 44,
+      "x": 516,
+      "y": 1074
     },
     {
       "id": "fac_l2_limit",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 516.0,
-      "y": 2034.0,
       "rotation": 0,
       "props": {
         "limit": 20
       },
       "note": "中横路西行进口限速 20 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 516,
+      "y": 2034
     },
     {
       "id": "fac_t0_giveway",
       "type": "sign",
       "subtype": "ban_give_way",
-      "x": 2876.0,
-      "y": -700.0,
       "rotation": 0,
       "props": {},
       "note": "支路（自南接入）减速让行标志，距支路东缘 10px，主路优先",
-      "w": 48.0,
-      "h": 48.0
+      "h": 48,
+      "w": 48,
+      "x": 2876,
+      "y": -700
     },
     {
       "id": "fac_t0_danger",
       "type": "sign",
       "subtype": "warn_danger",
-      "x": 2876.0,
-      "y": -560.0,
       "rotation": 0,
       "props": {},
       "note": "支路进入主路前的注意危险警告",
-      "w": 46.0,
-      "h": 46.0
+      "h": 46,
+      "w": 46,
+      "x": 2876,
+      "y": -560
     },
     {
       "id": "el_mwrj5xwvo1lrw",
@@ -1966,10 +1866,10 @@
       "rotation": 0,
       "props": {
         "checkpoint": "mandatory",
-        "manual_drive": true,
         "hint": "请手动操作",
         "hint_delay": 3,
-        "hint_duration": 5
+        "hint_duration": 5,
+        "manual_drive": true
       },
       "note": "必经点（专科组必过项）：未经过该点成绩记 0；经过后立即弹屏提示「请手动操作」，车辆转入手动驾驶完成剩余任务",
       "h": 28,
@@ -2038,18 +1938,6 @@
       "y": -840
     },
     {
-      "id": "ob_close_fence",
-      "type": "obstacle",
-      "subtype": "fence",
-      "rotation": 90,
-      "props": {},
-      "note": "施工封闭：y=1000 东段 2980~3820 整幅封闭，动态路障即设于此；所有车辆必须改由 x=2800 / x=4000 纵列绕行，单程增加约 260m",
-      "h": 32,
-      "w": 96,
-      "x": 3500,
-      "y": 1000
-    },
-    {
       "id": "ob_close_c1",
       "type": "obstacle",
       "subtype": "cone",
@@ -2058,8 +1946,8 @@
       "note": "封闭区西端锥桶，提示改道",
       "h": 28,
       "w": 24,
-      "x": 3300,
-      "y": 984
+      "x": 3440,
+      "y": 980
     },
     {
       "id": "ob_close_c2",
@@ -2094,32 +1982,176 @@
       "note": "封闭区东端锥桶，提示改道",
       "h": 28,
       "w": 24,
-      "x": 3700,
-      "y": 1016
+      "x": 3580,
+      "y": 1020
     },
     {
       "id": "fac_t0_beaconA",
       "type": "obstacle",
       "subtype": "beacon",
-      "x": 2650.0,
-      "y": -776.0,
       "rotation": 0,
       "props": {},
       "note": "丁字路口西南角警示灯，位于主路南缘外 8px",
-      "w": 24.0,
-      "h": 28.0
+      "h": 28,
+      "w": 24,
+      "x": 2650,
+      "y": -776
     },
     {
       "id": "fac_t0_beaconB",
       "type": "obstacle",
       "subtype": "beacon",
-      "x": 2950.0,
-      "y": -776.0,
       "rotation": 0,
       "props": {},
       "note": "丁字路口东南角警示灯",
-      "w": 24.0,
-      "h": 28.0
+      "h": 28,
+      "w": 24,
+      "x": 2950,
+      "y": -776
+    },
+    {
+      "id": "el_mwrtv3i630rvv",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 270,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 46,
+      "x": -440,
+      "y": 140
+    },
+    {
+      "id": "el_mwrtv7g6zfxez",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 270,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 46,
+      "x": -180,
+      "y": 100
+    },
+    {
+      "id": "el_mwrtwmn83bp8b",
+      "type": "car",
+      "subtype": "suv",
+      "x": 580,
+      "y": 1020,
+      "rotation": 90,
+      "w": 28,
+      "h": 48,
+      "note": "",
+      "props": {
+        "color": "#7be0c3",
+        "mass": 1900,
+        "length_m": 4.85,
+        "width_m": 1.93,
+        "height_m": 1.78,
+        "max_speed": 190,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "turn_radius": 6,
+        "init_speed": 0,
+        "mode": "L4",
+        "move": true,
+        "moveSpeed": 40,
+        "moveDistance": 50
+      }
+    },
+    {
+      "id": "el_mwrtxjoa847vo",
+      "type": "car",
+      "subtype": "two_wheeler",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 10,
+        "moveDistance": 40,
+        "color": "#f0946b",
+        "height_m": 1.1,
+        "init_speed": 0,
+        "length_m": 2,
+        "mass": 160,
+        "max_accel": 3.5,
+        "max_decel": 7,
+        "max_speed": 80,
+        "mode": "manual",
+        "turn_radius": 2.5,
+        "width_m": 0.75
+      },
+      "note": "",
+      "h": 38,
+      "w": 16,
+      "x": 2000,
+      "y": 1020
+    },
+    {
+      "id": "el_mwrtxnypf1v63",
+      "type": "car",
+      "subtype": "two_wheeler",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 10,
+        "moveDistance": 40,
+        "color": "#f0946b",
+        "height_m": 1.1,
+        "init_speed": 0,
+        "length_m": 2,
+        "mass": 160,
+        "max_accel": 3.5,
+        "max_decel": 7,
+        "max_speed": 80,
+        "mode": "manual",
+        "turn_radius": 2.5,
+        "width_m": 0.75
+      },
+      "note": "",
+      "h": 38,
+      "w": 16,
+      "x": 2200,
+      "y": 980
+    },
+    {
+      "id": "el_mwrtxxgqu6zc9",
+      "type": "car",
+      "subtype": "suv",
+      "x": 720,
+      "y": 140,
+      "rotation": 90,
+      "w": 28,
+      "h": 48,
+      "note": "",
+      "props": {
+        "color": "#7be0c3",
+        "mass": 1900,
+        "length_m": 4.85,
+        "width_m": 1.93,
+        "height_m": 1.78,
+        "max_speed": 190,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "turn_radius": 6,
+        "init_speed": 0,
+        "mode": "L4",
+        "move": true,
+        "moveSpeed": 40,
+        "moveDistance": 50
+      }
+    },
+    {
+      "id": "el_mwrty3oynkftx",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 270,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 46,
+      "x": 1020,
+      "y": 100
     }
   ]
 }

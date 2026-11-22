@@ -1,18 +1,17 @@
 {
   "version": "1.1",
   "meta": {
-    "name": "港口测试赛道-本科组-v7",
+    "name": "港口测试赛道-本科组-进阶版",
     "grid": 20,
     "pixels_per_meter": 12,
-    "saved_at": "2026/11/22 22:00:00",
-    "updated_at": "2026-11-22 22:00:00",
-    "created_at": "2026-11-22 17:36:04",
-    "description": "《港口迷雾协同运输场景》v7（限速区加难）：在中横路（y=1960）与北侧东西向道路（y=2920）增设 6 处 15 km/h 限速牌，贴路缘外侧 8px 布置，覆盖东行进口、S 弯前、窄口前与泊位入口前；20 km/h 全场上限不变，限速区内以 15 km/h 为判定阈值。"
+    "saved_at": "2026/11/22 20:37:29",
+    "updated_at": "2026-11-22 20:37:29",
+    "created_at": "2026-11-22 20:37:29"
   },
   "view": {
-    "scale": 0.25088000000000005,
-    "tx": -393.0484965132964,
-    "ty": 8.719095011776744
+    "scale": 0.2,
+    "tx": 306.2047750894311,
+    "ty": 179.75563123610885
   },
   "elements": [
     {
@@ -212,7 +211,7 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 51.3333,
-        "twoWay": true
+        "twoWay": false
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 2004~2620（616px=51.3m）2 车道，两端严格对齐路口边缘",
@@ -372,7 +371,7 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": true
+        "twoWay": false
       },
       "gid": "g_mwrioawj31j3c",
       "note": "补齐：横向直道 2980~3820（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -1008,7 +1007,7 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": true
+        "twoWay": false
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 2980~3820（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -1274,7 +1273,7 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 74,
-        "twoWay": true
+        "twoWay": false
       },
       "note": "补齐：横向直道 1732~2620（888px=74.0m），连通相邻路口",
       "h": 888,
@@ -1291,7 +1290,7 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": true
+        "twoWay": false
       },
       "note": "补齐：横向直道 2980~3820（840px=70.0m），连通相邻路口",
       "h": 840,
@@ -1361,6 +1360,7 @@
         "length_m": 51.3333,
         "twoWay": false
       },
+      "gid": "g_mwri70temp8z9",
       "note": "补齐：横向直道 2004~2620（616px=51.3m），连通相邻路口",
       "h": 616,
       "w": 84,
@@ -1388,55 +1388,37 @@
       "id": "fac_park_w1",
       "type": "lane",
       "subtype": "parking",
-      "x": 270.2,
-      "y": 560.0,
       "rotation": 90,
       "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
         "spaces": 3,
-        "stallW": 2.5,
         "stallL": 5.3,
-        "aisleW": 6.0,
-        "layout": "perpendicular"
+        "stallW": 2.5
       },
       "note": "路侧停车区 1：接西侧南北向道路西缘（x=338），3 个垂直式国标车位",
-      "w": 90.0,
-      "h": 135.6
+      "h": 135.6,
+      "w": 90,
+      "x": 270.2,
+      "y": 560
     },
     {
       "id": "fac_park_w2",
       "type": "lane",
       "subtype": "parking",
-      "x": 270.2,
-      "y": 1480.0,
       "rotation": 90,
       "props": {
+        "aisleW": 6,
+        "layout": "perpendicular",
         "spaces": 3,
-        "stallW": 2.5,
         "stallL": 5.3,
-        "aisleW": 6.0,
-        "layout": "perpendicular"
+        "stallW": 2.5
       },
       "note": "路侧停车区 2：接西侧南北向道路西缘，3 个垂直式国标车位",
-      "w": 90.0,
-      "h": 135.6
-    },
-    {
-      "id": "fac_park_e1",
-      "type": "lane",
-      "subtype": "parking",
-      "x": 3200.0,
-      "y": -927.0,
-      "rotation": 90,
-      "props": {
-        "spaces": 3,
-        "stallW": 2.5,
-        "stallL": 5.3,
-        "aisleW": 6.0,
-        "layout": "perpendicular"
-      },
-      "note": "顶行北侧停车区：接上横路北缘（y=-882），3 个垂直式国标车位",
-      "w": 90.0,
-      "h": 135.6
+      "h": 135.6,
+      "w": 90,
+      "x": 270.2,
+      "y": 1480
     },
     {
       "id": "el_mwriwq1kmzbh7",
@@ -1655,33 +1637,6 @@
       "y": -820
     },
     {
-      "id": "dyn_cross_w",
-      "type": "car",
-      "subtype": "sedan",
-      "rotation": 270,
-      "props": {
-        "move": true,
-        "moveSpeed": 20,
-        "moveDistance": 40,
-        "color": "#5eb8ff",
-        "height_m": 1.45,
-        "init_speed": 0,
-        "length_m": 4.7,
-        "mass": 1500,
-        "max_accel": 3,
-        "max_decel": 8,
-        "max_speed": 180,
-        "mode": "L4",
-        "turn_radius": 5.5,
-        "width_m": 1.82
-      },
-      "note": "动态障碍：中横路西段对向轿车（借道南半幅西行 40m）。运输车东行至窄口前必须先与它会车，窄口 (1330) 只剩南半幅通行，二者方向冲突，必须一方等待",
-      "h": 46,
-      "w": 26,
-      "x": 1200,
-      "y": 1981
-    },
-    {
       "id": "dyn_slalom_suv",
       "type": "car",
       "subtype": "suv",
@@ -1689,7 +1644,7 @@
       "props": {
         "move": true,
         "moveSpeed": 20,
-        "moveDistance": 8,
+        "moveDistance": 40,
         "color": "#7be0c3",
         "height_m": 1.78,
         "init_speed": 0,
@@ -1706,7 +1661,7 @@
       "h": 48,
       "w": 28,
       "x": 2060,
-      "y": 1939
+      "y": 1980
     },
     {
       "id": "dyn_rb_bike",
@@ -1734,33 +1689,6 @@
       "w": 16,
       "x": 2100,
       "y": 980
-    },
-    {
-      "id": "dyn_h0_bike",
-      "type": "car",
-      "subtype": "two_wheeler",
-      "rotation": 270,
-      "props": {
-        "move": true,
-        "moveSpeed": 12,
-        "moveDistance": 20,
-        "color": "#f0946b",
-        "height_m": 1.1,
-        "init_speed": 0,
-        "length_m": 2,
-        "mass": 160,
-        "max_accel": 3.5,
-        "max_decel": 7,
-        "max_speed": 80,
-        "mode": "manual",
-        "turn_radius": 2.5,
-        "width_m": 0.75
-      },
-      "note": "动态障碍：上横路东段对向两轮车（西行 20m，穿过 (2200,101) 窄口通行侧）。运输车 B 东行必须等它驶离窄口",
-      "h": 38,
-      "w": 16,
-      "x": 2350,
-      "y": 143
     },
     {
       "id": "dyn_h2_truck",
@@ -1820,38 +1748,36 @@
       "id": "fac_ped1",
       "type": "car",
       "subtype": "pedestrian",
-      "x": 320.0,
-      "y": 52.0,
       "rotation": 0,
       "props": {
-        "shirt": "#4a90d9",
-        "pose": "walk"
+        "pose": "walk",
+        "shirt": "#4a90d9"
       },
       "note": "行人：上横路北侧人行道，距路缘 13px，位于斑马线西侧",
-      "w": 10.0,
-      "h": 22.0
+      "h": 22,
+      "w": 10,
+      "x": 320,
+      "y": 52
     },
     {
       "id": "fac_ped2",
       "type": "car",
       "subtype": "pedestrian",
-      "x": 320.0,
-      "y": 1900.0,
       "rotation": 0,
       "props": {
-        "shirt": "#d97b4a",
-        "pose": "stand"
+        "pose": "stand",
+        "shirt": "#d97b4a"
       },
       "note": "行人：中横路北侧人行道等待过街",
-      "w": 10.0,
-      "h": 22.0
+      "h": 22,
+      "w": 10,
+      "x": 320,
+      "y": 1900
     },
     {
       "id": "fac_car_park",
       "type": "car",
       "subtype": "sedan",
-      "x": 270.0,
-      "y": 545.0,
       "rotation": 90,
       "props": {
         "move": false,
@@ -1870,8 +1796,10 @@
         "width_m": 1.82
       },
       "note": "路侧停车区 1 内停放的轿车（非任务车辆，静止）",
-      "w": 26.0,
-      "h": 46.0
+      "h": 46,
+      "w": 26,
+      "x": 270,
+      "y": 545
     },
     {
       "id": "el_mwriyu84iouoh",
@@ -1975,235 +1903,183 @@
       "id": "fac_l0_sigA",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 316.0,
-      "y": 33.0,
       "rotation": 0,
       "props": {
         "active": "green"
       },
       "note": "上横路 × 西侧南北向道路：西北角机动车信号灯，距路缘 8px",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 316,
+      "y": 33
     },
     {
       "id": "fac_l0_sigB",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 444.0,
-      "y": 207.0,
       "rotation": 180,
       "props": {
         "active": "green"
       },
       "note": "东南角对向机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 444,
+      "y": 207
     },
     {
       "id": "fac_l1_sigA",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 316.0,
-      "y": 913.0,
       "rotation": 0,
       "props": {
         "active": "green"
       },
       "note": "西北角机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 316,
+      "y": 913
     },
     {
       "id": "fac_l1_sigB",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 444.0,
-      "y": 1087.0,
       "rotation": 180,
       "props": {
         "active": "green"
       },
       "note": "东南角对向机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 444,
+      "y": 1087
     },
     {
       "id": "fac_l2_sigA",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 316.0,
-      "y": 1873.0,
       "rotation": 0,
       "props": {
         "active": "green"
       },
       "note": "西北角机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 316,
+      "y": 1873
     },
     {
       "id": "fac_l2_sigB",
       "type": "light",
       "subtype": "light_vehicle",
-      "x": 444.0,
-      "y": 2047.0,
       "rotation": 180,
       "props": {
         "active": "green"
       },
       "note": "东南角对向机动车信号灯",
-      "w": 28.0,
-      "h": 74.0
+      "h": 74,
+      "w": 28,
+      "x": 444,
+      "y": 2047
     },
     {
       "id": "fac_l0_limit",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 516.0,
-      "y": 194.0,
       "rotation": 0,
       "props": {
         "limit": 20
       },
       "note": "上横路西行进口（路口东侧 94px）限速 20 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 516,
+      "y": 194
     },
     {
       "id": "fac_l1_limit",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 516.0,
-      "y": 1074.0,
       "rotation": 0,
       "props": {
         "limit": 20
       },
       "note": "降速进口限速 20 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 516,
+      "y": 1074
     },
     {
       "id": "fac_l2_limit",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 516.0,
-      "y": 2034.0,
       "rotation": 0,
       "props": {
         "limit": 20
       },
       "note": "中横路西行进口限速 20 km/h",
-      "w": 44.0,
-      "h": 44.0
-    },
-    {
-      "id": "fac_t0_giveway",
-      "type": "sign",
-      "subtype": "ban_give_way",
-      "x": 2876.0,
-      "y": -700.0,
-      "rotation": 0,
-      "props": {},
-      "note": "支路（自南接入）减速让行标志，距支路东缘 10px，主路优先",
-      "w": 48.0,
-      "h": 48.0
-    },
-    {
-      "id": "fac_t0_danger",
-      "type": "sign",
-      "subtype": "warn_danger",
-      "x": 2876.0,
-      "y": -560.0,
-      "rotation": 0,
-      "props": {},
-      "note": "支路进入主路前的注意危险警告",
-      "w": 46.0,
-      "h": 46.0
-    },
-    {
-      "id": "fac_h2_limit_eb1",
-      "type": "sign",
-      "subtype": "ban_speed",
-      "x": 1000.0,
-      "y": 2032.0,
-      "rotation": 180,
-      "props": {
-        "limit": 15
-      },
-      "note": "中横路限速区进口提示：东行（中央路口西侧 552px），贴南缘外 8px，限速 15 km/h",
-      "w": 44.0,
-      "h": 44.0
-    },
-    {
-      "id": "fac_h2_limit_eb2",
-      "type": "sign",
-      "subtype": "ban_speed",
-      "x": 2100.0,
-      "y": 2032.0,
-      "rotation": 180,
-      "props": {
-        "limit": 15
-      },
-      "note": "中横路限速区重复提示：东行进入 S 弯（slalom_1 前 80px），限速 15 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 516,
+      "y": 2034
     },
     {
       "id": "fac_h2_limit_wb1",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 3300.0,
-      "y": 1888.0,
       "rotation": 0,
       "props": {
         "limit": 15
       },
       "note": "中横路限速区：西行进口（A 泊位出口西侧），贴北缘外 8px，限速 15 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 3300,
+      "y": 1888
     },
     {
       "id": "fac_h3_limit_eb1",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 2000.0,
-      "y": 2992.0,
       "rotation": 180,
       "props": {
         "limit": 15
       },
       "note": "北侧东西向道路限速区：东行中段（h3_gate 窄口前 200px），贴南缘外 8px，限速 15 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 2000,
+      "y": 2992
     },
     {
       "id": "fac_h3_limit_eb2",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 3300.0,
-      "y": 2992.0,
       "rotation": 180,
       "props": {
         "limit": 15
       },
       "note": "北侧东西向道路限速区：东行 B 泊位入口前，限速 15 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 2980,
+      "y": 3000
     },
     {
       "id": "fac_h3_limit_wb1",
       "type": "sign",
       "subtype": "ban_speed",
-      "x": 1150.0,
-      "y": 2848.0,
       "rotation": 0,
       "props": {
         "limit": 15
       },
       "note": "北侧东西向道路限速区：西行中段，贴北缘外 8px，限速 15 km/h",
-      "w": 44.0,
-      "h": 44.0
+      "h": 44,
+      "w": 44,
+      "x": 1080,
+      "y": 2848
     },
     {
       "id": "el_mwrj5xwvo1lrw",
@@ -2262,7 +2138,7 @@
       "note": "",
       "h": 28,
       "w": 24,
-      "x": -540,
+      "x": -620,
       "y": -820
     },
     {
@@ -2274,32 +2150,8 @@
       "note": "",
       "h": 28,
       "w": 46,
-      "x": 1320,
-      "y": -840
-    },
-    {
-      "id": "ob_slalom_1",
-      "type": "obstacle",
-      "subtype": "crash_barrel",
-      "rotation": 90,
-      "props": {},
-      "note": "施工绕行 1/2：中行东段南半幅占道，北半幅净宽 3.8m；运输车需先取北侧车道",
-      "h": 36,
-      "w": 34,
-      "x": 2180,
-      "y": 1981
-    },
-    {
-      "id": "ob_slalom_2",
-      "type": "obstacle",
-      "subtype": "crash_barrel",
-      "rotation": 90,
-      "props": {},
-      "note": "施工绕行 2/2：中行东段北半幅占道，南半幅净宽 3.9m；与前一处交错形成 S 弯，间距 20m，要求完成一次变道 + 一次回正",
-      "h": 36,
-      "w": 34,
-      "x": 2420,
-      "y": 1939
+      "x": 860,
+      "y": -860
     },
     {
       "id": "ob_gate_w",
@@ -2334,8 +2186,8 @@
       "note": "顶行东段窄口：北半幅占道，净宽 3.17m；运输车 B 东行必经，需贴南侧精确通过",
       "h": 28,
       "w": 46,
-      "x": 2200,
-      "y": 101
+      "x": 1774,
+      "y": 140
     },
     {
       "id": "ob_h3_gate",
@@ -2370,8 +2222,8 @@
       "note": "B 泊位入口收窄：北侧占道，净宽 4.08m；与 A 泊位同向偏置",
       "h": 28,
       "w": 46,
-      "x": 3760,
-      "y": 2890
+      "x": 3020,
+      "y": 2940
     },
     {
       "id": "ob_close_fence",
@@ -2466,8 +2318,8 @@
       "note": "底行中段窄口：北半幅占道，净宽 3.33m；B 泊位方向第二处收窄",
       "h": 28,
       "w": 46,
-      "x": 2400,
-      "y": 2899
+      "x": 2420,
+      "y": 2940
     },
     {
       "id": "ob_axis_narrow",
@@ -2485,25 +2337,453 @@
       "id": "fac_t0_beaconA",
       "type": "obstacle",
       "subtype": "beacon",
-      "x": 2650.0,
-      "y": -776.0,
       "rotation": 0,
       "props": {},
       "note": "丁字路口西南角警示灯，位于主路南缘外 8px",
-      "w": 24.0,
-      "h": 28.0
+      "h": 28,
+      "w": 24,
+      "x": 2650,
+      "y": -776
     },
     {
       "id": "fac_t0_beaconB",
       "type": "obstacle",
       "subtype": "beacon",
-      "x": 2950.0,
-      "y": -776.0,
       "rotation": 0,
       "props": {},
       "note": "丁字路口东南角警示灯",
-      "w": 24.0,
-      "h": 28.0
+      "h": 28,
+      "w": 24,
+      "x": 2950,
+      "y": -776
+    },
+    {
+      "id": "el_mwrrxieo6w18n",
+      "type": "car",
+      "subtype": "truck",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 15,
+        "moveDistance": 15,
+        "color": "#e8c46a",
+        "height_m": 3.4,
+        "init_speed": 0,
+        "length_m": 9.5,
+        "mass": 12000,
+        "max_accel": 1.2,
+        "max_decel": 5,
+        "max_speed": 100,
+        "mode": "L2",
+        "turn_radius": 9,
+        "width_m": 2.5
+      },
+      "note": "动态障碍：中横路东段慢速卡车（东行 15m 后停驻）。位于通往 A 泊位的最后一段直道，宽 2.5m 占掉南半幅，超车需借用北半幅并避开泊位入口窄口",
+      "h": 64,
+      "w": 30,
+      "x": 3300,
+      "y": 140
+    },
+    {
+      "id": "el_mwrs3sip8766w",
+      "type": "sign",
+      "subtype": "ban_speed",
+      "rotation": 180,
+      "props": {
+        "limit": 15
+      },
+      "note": "北侧东西向道路限速区：东行 B 泊位入口前，限速 15 km/h",
+      "h": 44,
+      "w": 44,
+      "x": 3020,
+      "y": -760
+    },
+    {
+      "id": "el_mwrs41y1achs5",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "B 泊位入口收窄：北侧占道，净宽 4.08m；与 A 泊位同向偏置",
+      "h": 28,
+      "w": 46,
+      "x": 3020,
+      "y": -820
+    },
+    {
+      "id": "el_mwrt0ysqophfb",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 24,
+      "x": -620,
+      "y": 2940
+    },
+    {
+      "id": "el_mwrt1gubjtaz8",
+      "type": "car",
+      "subtype": "suv",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#7be0c3",
+        "height_m": 1.78,
+        "init_speed": 0,
+        "length_m": 4.85,
+        "mass": 1900,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "max_speed": 190,
+        "mode": "L4",
+        "turn_radius": 6,
+        "width_m": 1.93
+      },
+      "note": "",
+      "h": 48,
+      "w": 28,
+      "x": 40,
+      "y": 2940
+    },
+    {
+      "id": "el_mwrt1tz78gj7n",
+      "type": "car",
+      "subtype": "two_wheeler",
+      "rotation": 270,
+      "props": {
+        "move": true,
+        "moveSpeed": 10,
+        "moveDistance": 15,
+        "color": "#f0946b",
+        "height_m": 1.1,
+        "init_speed": 0,
+        "length_m": 2,
+        "mass": 160,
+        "max_accel": 3.5,
+        "max_decel": 7,
+        "max_speed": 80,
+        "mode": "manual",
+        "turn_radius": 2.5,
+        "width_m": 0.75
+      },
+      "note": "动态障碍：北侧东西向道路西段对向两轮车（西行 15m）。与运输车 B 沿底行西行段交会",
+      "h": 38,
+      "w": 16,
+      "x": 1240,
+      "y": -820
+    },
+    {
+      "id": "el_mwrt24f8gr1v3",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 270,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 46,
+      "x": 860,
+      "y": 2900
+    },
+    {
+      "id": "el_mwrt2vtwppv9w",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "底行东段窄口：北半幅占道，净宽 3.33m；通往 B 泊位必经",
+      "h": 28,
+      "w": 46,
+      "x": 2220,
+      "y": -860
+    },
+    {
+      "id": "el_mwrt37tp8elo6",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "底行中段窄口：北半幅占道，净宽 3.33m；B 泊位方向第二处收窄",
+      "h": 28,
+      "w": 46,
+      "x": 2420,
+      "y": -820
+    },
+    {
+      "id": "el_mwrt419icydy5",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "顶行西段窄口：北半幅占道，净宽 3.17m；巡检车前往 A 号信号途经",
+      "h": 28,
+      "w": 46,
+      "x": 820,
+      "y": 1940
+    },
+    {
+      "id": "el_mwrt4vbbwmumv",
+      "type": "car",
+      "subtype": "suv",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 20,
+        "moveDistance": 40,
+        "color": "#7be0c3",
+        "height_m": 1.78,
+        "init_speed": 0,
+        "length_m": 4.85,
+        "mass": 1900,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "max_speed": 190,
+        "mode": "L4",
+        "turn_radius": 6,
+        "width_m": 1.93
+      },
+      "note": "动态障碍：S 弯入口北半幅慢速 SUV（东行 8m 后停驻）。占住 slalom_1 的对侧半幅，迫使运输车在南半幅完成第一次变道",
+      "h": 48,
+      "w": 28,
+      "x": 2060,
+      "y": 140
+    },
+    {
+      "id": "el_mwrt5tpldvvwy",
+      "type": "light",
+      "subtype": "light_vehicle",
+      "rotation": 0,
+      "props": {
+        "active": "green"
+      },
+      "note": "",
+      "h": 74,
+      "w": 28,
+      "x": 2800,
+      "y": 120
+    },
+    {
+      "id": "el_mwrt64f7jsv91",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "底行东段窄口：北半幅占道，净宽 3.33m；通往 B 泊位必经",
+      "h": 28,
+      "w": 46,
+      "x": -520,
+      "y": 980
+    },
+    {
+      "id": "el_mwrt6dz69l7hu",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "底行中段窄口：北半幅占道，净宽 3.33m；B 泊位方向第二处收窄",
+      "h": 28,
+      "w": 46,
+      "x": -340,
+      "y": 1020
+    },
+    {
+      "id": "el_mwrt6i1ml7brs",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "底行东段窄口：北半幅占道，净宽 3.33m；通往 B 泊位必经",
+      "h": 28,
+      "w": 46,
+      "x": -160,
+      "y": 980
+    },
+    {
+      "id": "el_mwrt6ocybplzq",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "底行中段窄口：北半幅占道，净宽 3.33m；B 泊位方向第二处收窄",
+      "h": 28,
+      "w": 46,
+      "x": 40,
+      "y": 1020
+    },
+    {
+      "id": "el_mwrt8di4enoz8",
+      "type": "sign",
+      "subtype": "ban_speed",
+      "rotation": 0,
+      "props": {
+        "limit": 15
+      },
+      "note": "北侧东西向道路限速区：西行中段，贴北缘外 8px，限速 15 km/h",
+      "h": 44,
+      "w": 44,
+      "x": 1080,
+      "y": -920
+    },
+    {
+      "id": "el_mwrta45jaygul",
+      "type": "sign",
+      "subtype": "ban_speed",
+      "rotation": 0,
+      "props": {
+        "limit": 15
+      },
+      "note": "中横路限速区：西行进口（A 泊位出口西侧），贴北缘外 8px，限速 15 km/h",
+      "h": 44,
+      "w": 44,
+      "x": 3300,
+      "y": 40
+    },
+    {
+      "id": "el_mwrtaj3shm5y6",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 90,
+      "props": {},
+      "note": "中央路口西进口窄口：北半幅占道，净宽 3.33m；6m 互斥区外 19m，运输车须减速对准南半幅进入",
+      "h": 28,
+      "w": 46,
+      "x": 1330,
+      "y": 100
+    },
+    {
+      "id": "el_mwrtb21d85r5w",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 24,
+      "x": -400,
+      "y": -860
+    },
+    {
+      "id": "el_mwrtb9aprp9n0",
+      "type": "obstacle",
+      "subtype": "cone",
+      "rotation": 0,
+      "props": {},
+      "note": "",
+      "h": 28,
+      "w": 24,
+      "x": -420,
+      "y": 2900
+    },
+    {
+      "id": "el_mwrtdl9qaolt4",
+      "type": "car",
+      "subtype": "two_wheeler",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 10,
+        "moveDistance": 20,
+        "color": "#f0946b",
+        "height_m": 1.1,
+        "init_speed": 0,
+        "length_m": 2,
+        "mass": 160,
+        "max_accel": 3.5,
+        "max_decel": 7,
+        "max_speed": 80,
+        "mode": "manual",
+        "turn_radius": 2.5,
+        "width_m": 0.75
+      },
+      "note": "",
+      "h": 38,
+      "w": 16,
+      "x": 800,
+      "y": 1980
+    },
+    {
+      "id": "el_mwrte3rhz38ce",
+      "type": "car",
+      "subtype": "two_wheeler",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 10,
+        "moveDistance": 20,
+        "color": "#f0946b",
+        "height_m": 1.1,
+        "init_speed": 0,
+        "length_m": 2,
+        "mass": 160,
+        "max_accel": 3.5,
+        "max_decel": 7,
+        "max_speed": 80,
+        "mode": "manual",
+        "turn_radius": 2.5,
+        "width_m": 0.75
+      },
+      "note": "",
+      "h": 38,
+      "w": 16,
+      "x": 800,
+      "y": 140
+    },
+    {
+      "id": "el_mwrtef5par70l",
+      "type": "car",
+      "subtype": "suv",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 20,
+        "moveDistance": 60,
+        "color": "#7be0c3",
+        "height_m": 1.78,
+        "init_speed": 0,
+        "length_m": 4.85,
+        "mass": 1900,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "max_speed": 190,
+        "mode": "L4",
+        "turn_radius": 6,
+        "width_m": 1.93
+      },
+      "note": "动态障碍：S 弯入口北半幅慢速 SUV（东行 8m 后停驻）。占住 slalom_1 的对侧半幅，迫使运输车在南半幅完成第一次变道",
+      "h": 48,
+      "w": 28,
+      "x": -400,
+      "y": 1980
+    },
+    {
+      "id": "el_mwrteigmtngvy",
+      "type": "car",
+      "subtype": "suv",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 20,
+        "moveDistance": 60,
+        "color": "#7be0c3",
+        "height_m": 1.78,
+        "init_speed": 0,
+        "length_m": 4.85,
+        "mass": 1900,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "max_speed": 190,
+        "mode": "L4",
+        "turn_radius": 6,
+        "width_m": 1.93
+      },
+      "note": "动态障碍：S 弯入口北半幅慢速 SUV（东行 8m 后停驻）。占住 slalom_1 的对侧半幅，迫使运输车在南半幅完成第一次变道",
+      "h": 48,
+      "w": 28,
+      "x": -180,
+      "y": 140
     }
   ]
 }
