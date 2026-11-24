@@ -1,0 +1,231 @@
+{
+  "version": "1.1",
+  "meta": {
+    "name": "文本导航停车",
+    "grid": 20,
+    "pixels_per_meter": 12,
+    "saved_at": "2026/11/22 20:52:52",
+    "updated_at": "2026-11-22 20:52:52",
+    "created_at": "2026-11-22 20:52:52"
+  },
+  "view": {
+    "scale": 0.13733,
+    "tx": 557.10657,
+    "ty": 1411.62719
+  },
+  "elements": [
+    {
+      "id": "vla_a_stall_1",
+      "type": "lane",
+      "subtype": "parking",
+      "rotation": 90.0,
+      "props": {
+        "aisleW": 0,
+        "layout": "perpendicular",
+        "spaces": 1,
+        "stallL": 6,
+        "stallW": 2.5
+      },
+      "note": "地面车位标线 · Unity X/Z（米）(-24.93, 671.22)，地面标线 2.5 × 6 米",
+      "h": 72.0,
+      "w": 30.0,
+      "x": -299.16,
+      "y": -8054.64
+    },
+    {
+      "id": "vla_a_stall_2",
+      "type": "lane",
+      "subtype": "parking",
+      "rotation": 90.0,
+      "props": {
+        "aisleW": 0,
+        "layout": "perpendicular",
+        "spaces": 1,
+        "stallL": 6,
+        "stallW": 2.5
+      },
+      "note": "地面车位标线 · Unity X/Z（米）(-25, 775)，地面标线 2.5 × 6 米",
+      "h": 72.0,
+      "w": 30.0,
+      "x": -300.0,
+      "y": -9300.0
+    },
+    {
+      "id": "vla_a_stall_3",
+      "type": "lane",
+      "subtype": "parking",
+      "rotation": 90.0,
+      "props": {
+        "aisleW": 0,
+        "layout": "perpendicular",
+        "spaces": 1,
+        "stallL": 6,
+        "stallW": 2.5
+      },
+      "note": "地面车位标线 · Unity X/Z（米）(-24.93, 665.84)，地面标线 2.5 × 6 米",
+      "h": 72.0,
+      "w": 30.0,
+      "x": -299.16,
+      "y": -7990.08
+    },
+    {
+      "id": "vla_a_a_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭A栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-45.8362, 501.284)，最大 (-26.552, 551.912)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -433.2008,
+      "y": -6319.19964
+    },
+    {
+      "id": "vla_a_b_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭B栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-82.0418, 499.29)，最大 (-62.7577, 549.918)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -867.66924,
+      "y": -6295.26684
+    },
+    {
+      "id": "vla_a_c_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭C栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-82.0418, 551.49)，最大 (-62.7577, 602.118)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -867.66924,
+      "y": -6921.66684
+    },
+    {
+      "id": "vla_a_d_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭D栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-45.8361, 553.284)，最大 (-26.552, 603.912)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -433.20072,
+      "y": -6943.19964
+    },
+    {
+      "id": "vla_a_e_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭E栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-45.8362, 697.534)，最大 (-26.552, 748.162)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -433.2008,
+      "y": -8674.20084
+    },
+    {
+      "id": "vla_a_f_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭F栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-82.0418, 699.19)，最大 (-62.7577, 749.818)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -867.66924,
+      "y": -8694.06684
+    },
+    {
+      "id": "vla_a_g_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭G栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-82.0418, 750.59)，最大 (-62.7577, 801.218)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -867.66924,
+      "y": -9310.86684
+    },
+    {
+      "id": "vla_a_h_building",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "锦汇华庭H栋 · 建筑碰撞包络 · Unity X/Z（米）最小 (-45.8361, 749.534)，最大 (-26.552, 800.162)，尺寸 (19.2842, 50.6282) 米",
+      "h": 28,
+      "w": 24,
+      "x": -433.20058,
+      "y": -9298.2012
+    },
+    {
+      "id": "vla_a_ego",
+      "type": "car",
+      "subtype": "sedan",
+      "rotation": 270.0,
+      "props": {
+        "move": false,
+        "moveSpeed": 30,
+        "moveDistance": 50,
+        "color": "#5eb8ff",
+        "height_m": 1.45,
+        "init_speed": 0,
+        "length_m": 4.7,
+        "mass": 1500,
+        "max_accel": 3,
+        "max_decel": 8,
+        "max_speed": 180,
+        "mode": "L4",
+        "turn_radius": 5.5,
+        "width_m": 1.82
+      },
+      "note": "主车起点 · Unity X/Z（米）(3, 637)",
+      "h": 46,
+      "w": 26,
+      "x": 36.0,
+      "y": -7644.0
+    },
+    {
+      "id": "vla_a_target_b1",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "候选任务目标 · B栋一单元门口 · Unity X/Z（米）(-60, 507.86)",
+      "h": 28,
+      "w": 24,
+      "x": -720.0,
+      "y": -6094.32
+    },
+    {
+      "id": "vla_a_target_g2",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "候选任务目标 · G栋二单元门口 · Unity X/Z（米）(-60, 792.69)",
+      "h": 28,
+      "w": 24,
+      "x": -720.0,
+      "y": -9512.28
+    },
+    {
+      "id": "vla_a_target_stall",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0.0,
+      "props": {},
+      "note": "候选任务目标 · 任务车位 · Unity X/Z（米）(-24.93, 775)",
+      "h": 28,
+      "w": 24,
+      "x": -299.16,
+      "y": -9300.0
+    }
+  ]
+}
