@@ -97,7 +97,8 @@ const PALETTE = [
       { subtype: 'crash_barrel', label: '防撞桶', w: 34, h: 36, props: {} },
       { subtype: 'guardrail', label: '波形护栏', w: 96, h: 22, props: {} },
       { subtype: 'fence', label: '施工围挡', w: 96, h: 32, props: {} },
-      { subtype: 'beacon', label: '警示灯', w: 24, h: 28, props: {} }
+      { subtype: 'beacon', label: '警示灯', w: 24, h: 28, props: {} },
+      { subtype: 'free_obstacle', label: '自由障碍物', w: 120, h: 120, props: { width_m: 10, depth_m: 10, color: '#d9343b', label: '' } }
     ]
   },
   {
@@ -238,7 +239,15 @@ const INSPECTOR_SCHEMA = {
   ban_speed: [{ section: '禁令参数', fields: [{ key: 'limit', label: '限速值', unit: 'km/h', type: 'number', min: 5, max: 120, step: 5 }] }],
   light_vehicle: [{ section: '信号灯状态', fields: [{ key: 'active', label: '点亮灯色', type: 'select', options: [['red', '红灯'], ['yellow', '黄灯'], ['green', '绿灯']] }] }],
   light_arrow: [{ section: '信号灯状态', fields: [{ key: 'active', label: '点亮灯色', type: 'select', options: [['red', '红灯'], ['yellow', '黄灯'], ['green', '绿灯']] }] }],
-  light_lane: [{ section: '信号灯状态', fields: [{ key: 'active', label: '点亮状态', type: 'select', options: [['green', '绿色箭头(通行)'], ['red', '红色叉形(禁行)']] }] }]
+  light_lane: [{ section: '信号灯状态', fields: [{ key: 'active', label: '点亮状态', type: 'select', options: [['green', '绿色箭头(通行)'], ['red', '红色叉形(禁行)']] }] }],
+  free_obstacle: [{
+    section: '自由障碍物参数', fields: [
+      { key: 'width_m', label: '宽度', unit: 'm', type: 'number', min: 0.1, max: 500, step: 0.1, resize: true },
+      { key: 'depth_m', label: '纵深（长度）', unit: 'm', type: 'number', min: 0.1, max: 500, step: 0.1, resize: true },
+      { key: 'color', label: '填充颜色', type: 'color' },
+      { key: 'label', label: '标注文字', type: 'text' }
+    ]
+  }]
 };
 
 function schemaOf(subtype, type) {
@@ -268,6 +277,9 @@ function sizeFromProps(el) {
     const Wm = perp ? p.spaces * p.stallW : p.spaces * p.stallL;
     const Hm = perp ? p.stallL + p.aisleW : p.stallW + p.aisleW;
     return { w: m(Wm), h: m(Hm) };
+  }
+  if (s === 'free_obstacle') {
+    return { w: m(Number(p.width_m) || 10), h: m(Number(p.depth_m) || 10) };
   }
   return { w: el.w, h: el.h };
 }
@@ -841,6 +853,27 @@ RENDER.fence = () => {
 RENDER.beacon = () =>
   rect(-8, 6, 16, 6, 2, '#2a3442') + circle(0, -2, 7, 'rgba(245,197,66,0.25)') +
   circle(0, -2, 4.6, C.yellow) + line(0, -9, 0, -13, '#3a4a5f', 2);
+RENDER.free_obstacle = el => {
+  const w = el.w || 120, h = el.h || 120, x = -w / 2, y = -h / 2;
+  const color = el.props.color || '#d9343b';
+  let out = rect(x, y, w, h, hexA(color, 0.16), color, 2);
+  // 内部斜线阴影，提示不可通行区域
+  for (let d = -h; d < w; d += 24) {
+    out += `<path d="M${r3(x + Math.max(0, d))} ${r3(y + Math.max(0, -d))} L${r3(x + Math.min(w, d + h))} ${r3(y + Math.min(h, h - d))}" stroke="${hexA(color, 0.35)}" stroke-width="1"/>`;
+  }
+  const label = el.props.label || '';
+  const wm = el.props.width_m != null ? el.props.width_m : (el.props.sizeW != null ? el.props.sizeW : (w / PPM).toFixed(2));
+  const dm = el.props.depth_m != null ? el.props.depth_m : (el.props.sizeH != null ? el.props.sizeH : (h / PPM).toFixed(2));
+  out += rect(-Math.min(120, w / 2) , -9, Math.min(240, w), 18, 'rgba(12,18,26,0.75)');
+  out += `<text x="0" y="4" text-anchor="middle" font-size="12" fill="${C.white}">${esc(label ? label + ' · ' : '')}${wm} × ${dm} m</text>`;
+  return out;
+};
+function hexA(hex, alpha) {
+  const h = String(hex).replace('#', '');
+  const r = parseInt(h.substring(0, 2), 16), g = parseInt(h.substring(2, 4), 16), b = parseInt(h.substring(4, 6), 16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+function esc(s) { return String(s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c])); }
 function ellipse(cx, cy, rx, ry, fill) {
   return `<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}" fill="${fill}"/>`;
 }

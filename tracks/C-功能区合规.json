@@ -1,96 +1,101 @@
 {
   "version": "1.1",
   "meta": {
-    "name": "功能区合规",
+    "name": "C-功能区合规",
     "grid": 20,
     "pixels_per_meter": 12,
-    "saved_at": "2026/11/22 20:52:52",
-    "updated_at": "2026-11-22 20:52:52",
-    "created_at": "2026-11-22 20:52:52"
+    "saved_at": "2026/11/24 22:43:45",
+    "updated_at": "2026-11-24 22:43:45",
+    "created_at": "2026-11-24 22:43:45"
   },
   "view": {
     "scale": 0.56634,
-    "tx": 533.9804,
-    "ty": 372.62118
+    "tx": 276.06038657226566,
+    "ty": 268.3011879345703
   },
   "elements": [
     {
       "id": "vla_c_function",
       "type": "obstacle",
-      "subtype": "beacon",
-      "rotation": 0.0,
-      "props": {},
+      "subtype": "free_obstacle",
+      "rotation": 0,
+      "props": {
+        "color": "#1d6fe0",
+        "depth_m": 50,
+        "label": "功能区",
+        "width_m": 50
+      },
       "note": "功能区中心 · Unity X/Z（米）最小 (-25, -25)，最大 (25, 25)，尺寸 (50, 50) 米",
-      "h": 28,
-      "w": 24,
-      "x": 0.0,
-      "y": 0.0
+      "h": 600,
+      "w": 600,
+      "x": 0,
+      "y": 0
     },
     {
       "id": "vla_c_function_corner_1",
       "type": "obstacle",
       "subtype": "beacon",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {},
       "note": "功能区边界角点 1/4 · Unity X/Z（米）(-25, -25)",
       "h": 28,
       "w": 24,
-      "x": -300.0,
-      "y": 300.0
+      "x": -300,
+      "y": 300
     },
     {
       "id": "vla_c_function_corner_2",
       "type": "obstacle",
       "subtype": "beacon",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {},
       "note": "功能区边界角点 2/4 · Unity X/Z（米）(25, -25)",
       "h": 28,
       "w": 24,
-      "x": 300.0,
-      "y": 300.0
+      "x": 300,
+      "y": 300
     },
     {
       "id": "vla_c_function_corner_3",
       "type": "obstacle",
       "subtype": "beacon",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {},
       "note": "功能区边界角点 3/4 · Unity X/Z（米）(25, 25)",
       "h": 28,
       "w": 24,
-      "x": 300.0,
-      "y": -300.0
+      "x": 300,
+      "y": -300
     },
     {
       "id": "vla_c_function_corner_4",
       "type": "obstacle",
       "subtype": "beacon",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {},
       "note": "功能区边界角点 4/4 · Unity X/Z（米）(-25, 25)",
       "h": 28,
       "w": 24,
-      "x": -300.0,
-      "y": -300.0
+      "x": -300,
+      "y": -300
     },
     {
       "id": "vla_c_subscene_start",
       "type": "obstacle",
       "subtype": "beacon",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {},
       "note": "子场景起点 · Unity X/Z（米）(-35, 0)",
       "h": 28,
       "w": 24,
-      "x": -420.0,
-      "y": 0.0
+      "x": -420,
+      "y": 0
     },
     {
       "id": "vla_c_parked_01",
       "type": "car",
       "subtype": "sedan",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -117,7 +122,7 @@
       "id": "vla_c_parked_02",
       "type": "car",
       "subtype": "sedan",
-      "rotation": 90.0,
+      "rotation": 90,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -144,7 +149,7 @@
       "id": "vla_c_parked_03",
       "type": "car",
       "subtype": "sedan",
-      "rotation": 90.0,
+      "rotation": 90,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -165,13 +170,13 @@
       "h": 46,
       "w": 26,
       "x": -153.6,
-      "y": 228.0
+      "y": 228
     },
     {
       "id": "vla_c_parked_04",
       "type": "car",
       "subtype": "sedan",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -198,7 +203,7 @@
       "id": "vla_c_parked_05",
       "type": "car",
       "subtype": "sedan",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -225,7 +230,7 @@
       "id": "vla_c_parked_06",
       "type": "car",
       "subtype": "sedan",
-      "rotation": 0.0,
+      "rotation": 0,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -252,7 +257,7 @@
       "id": "vla_c_ego",
       "type": "car",
       "subtype": "sedan",
-      "rotation": 180.0,
+      "rotation": 180,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -274,6 +279,96 @@
       "w": 26,
       "x": 48.6,
       "y": -415.2
+    },
+    {
+      "id": "el_mwut0hag0z6wq",
+      "type": "car",
+      "subtype": "suv",
+      "rotation": 90,
+      "props": {
+        "move": true,
+        "moveSpeed": 20,
+        "moveDistance": 40,
+        "color": "#7be0c3",
+        "mass": 1900,
+        "length_m": 4.85,
+        "width_m": 1.93,
+        "height_m": 1.78,
+        "max_speed": 190,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "turn_radius": 6,
+        "init_speed": 0,
+        "mode": "L4"
+      },
+      "note": "来回走",
+      "x": -240,
+      "y": -140,
+      "w": 28,
+      "h": 48
+    },
+    {
+      "id": "el_mwut0zgrn6l4r",
+      "type": "car",
+      "subtype": "suv",
+      "rotation": -90,
+      "props": {
+        "move": true,
+        "moveSpeed": 20,
+        "moveDistance": 40,
+        "color": "#7be0c3",
+        "mass": 1900,
+        "length_m": 4.85,
+        "width_m": 1.93,
+        "height_m": 1.78,
+        "max_speed": 190,
+        "max_accel": 2.8,
+        "max_decel": 7.5,
+        "turn_radius": 6,
+        "init_speed": 0,
+        "mode": "L4"
+      },
+      "note": "来回走",
+      "x": 240,
+      "y": 48,
+      "w": 28,
+      "h": 48
+    },
+    {
+      "id": "el_mwut1fcm45c3y",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "rotation": 0,
+      "props": {},
+      "note": "",
+      "x": 80,
+      "y": -240,
+      "w": 46,
+      "h": 28
+    },
+    {
+      "id": "el_mwut1o5cnvye9",
+      "type": "obstacle",
+      "subtype": "water_barrier",
+      "x": -32,
+      "y": 150,
+      "rotation": 0,
+      "w": 46,
+      "h": 28,
+      "note": "",
+      "props": {}
+    },
+    {
+      "id": "el_mwut1qe0xmut3",
+      "type": "obstacle",
+      "subtype": "cone",
+      "x": 0,
+      "y": -40,
+      "rotation": 0,
+      "w": 24,
+      "h": 28,
+      "note": "",
+      "props": {}
     }
   ]
 }

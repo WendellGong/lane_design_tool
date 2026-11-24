@@ -183,6 +183,9 @@ function fieldHTML(f, val) {
   if (f.type === 'color') {
     return `<div class="insp-field"><label>${f.label}</label><input type="color" class="form-input" style="height:34px;padding:3px" data-k="${f.key}" value="${val}"></div>`;
   }
+  if (f.type === 'text') {
+    return `<div class="insp-field"><label>${f.label}</label><input type="text" class="form-input" data-k="${f.key}" value="${val == null ? '' : val}"></div>`;
+  }
   return numFieldHTML(f.key, f.label, val, f.step, f.unit, f.min, f.max);
 }
 
