@@ -158,7 +158,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 20,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrtspw2vpuuy",
       "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
@@ -176,7 +177,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 45.1667,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 560~1102（542px=45.2m）2 车道，两端严格对齐路口边缘",
@@ -194,7 +196,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 51.3333,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 2004~2620（616px=51.3m）2 车道，两端严格对齐路口边缘",
@@ -212,7 +215,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 20,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrtspw2vpuuy",
       "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
@@ -247,7 +251,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 45.1667,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "note": "补齐：横向直道 560~1102（542px=45.2m）2 车道，两端严格对齐路口边缘",
       "h": 542,
@@ -264,7 +269,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 20,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrio3arxx3o7",
       "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
@@ -282,7 +288,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrio5jvpmkia",
       "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -300,7 +307,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 67.6667,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrio8nzcykj0",
       "note": "补齐：横向直道 560~1372（812px=67.7m）2 车道，两端严格对齐路口边缘",
@@ -318,7 +326,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 74,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrio8nzcykj0",
       "note": "补齐：横向直道 1732~2620（888px=74.0m）2 车道，两端严格对齐路口边缘",
@@ -336,7 +345,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrioawj31j3c",
       "note": "补齐：横向直道 2980~3820（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -528,7 +538,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 43.333,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "能源区东侧南北向道路路段：路口间双向2车道直道，长43.333m",
@@ -546,7 +557,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 50,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "note": "能源区东侧南北向道路路段：路口间双向2车道直道，长50.0m",
       "h": 600,
@@ -760,7 +772,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 53.5,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrtspw2vpuuy",
       "note": "补齐：横向直道 560~1202（642px=53.5m）2 车道，两端严格对齐路口边缘",
@@ -867,7 +880,7 @@
         "stallL": 5.3,
         "stallW": 2.5
       },
-      "note": "A 泊位（Berth_A，200 分）：中央路口东出口正对的东端泊位",
+      "note": "A 泊位（Berth_A，200 分）：y=1960 道路东端的停车坪 1，交付停车坪 1 的 1 号车位。",
       "h": 135.60000000000002,
       "w": 90,
       "x": 4247.8,
@@ -936,7 +949,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 59.6667,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 1904~2620（716px=59.7m）2 车道，两端严格对齐路口边缘",
@@ -954,7 +968,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrtspw2vpuuy",
       "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -972,7 +987,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 2980~3820（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -990,7 +1006,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 50,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "note": "西侧南北向道路路段：路口间双向2车道直道，长50.0m",
       "h": 600,
@@ -1043,7 +1060,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 20,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 -1240~-1000（240px=20.0m）2 车道，两端严格对齐路口边缘",
@@ -1203,7 +1221,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrizff1pqp8f",
       "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -1221,7 +1240,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 67.6667,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "note": "补齐：横向直道 560~1372（812px=67.7m），连通相邻路口",
       "h": 812,
@@ -1238,7 +1258,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 74,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "note": "补齐：横向直道 1732~2620（888px=74.0m），连通相邻路口",
       "h": 888,
@@ -1255,7 +1276,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "note": "补齐：横向直道 2980~3820（840px=70.0m），连通相邻路口",
       "h": 840,
@@ -1323,7 +1345,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 51.3333,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwri70temp8z9",
       "note": "补齐：横向直道 2004~2620（616px=51.3m），连通相邻路口",
@@ -1358,7 +1381,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrtspw2vpuuy",
       "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -1376,7 +1400,8 @@
         "laneW": 3.5,
         "lanes": 2,
         "length_m": 70,
-        "twoWay": false
+        "twoWay": true,
+        "centerLine": "dashed"
       },
       "gid": "g_mwrtucbp8u6kh",
       "note": "补齐：横向直道 -640~200（840px=70.0m）2 车道，两端严格对齐路口边缘",
@@ -1443,7 +1468,7 @@
       "id": "el_mwrj75wort5pw",
       "type": "car",
       "subtype": "truck",
-      "rotation": -90,
+      "rotation": 90,
       "props": {
         "move": false,
         "moveSpeed": 30,
@@ -2115,7 +2140,7 @@
       "subtype": "fence",
       "rotation": 90,
       "props": {},
-      "note": "施工封闭：y=1000 东段 2980~3820 整幅封闭，动态路障即设于此；所有车辆必须改由 x=2800 / x=4000 纵列绕行，单程增加约 260m",
+      "note": "施工围挡：y=1000 东段 x=2980–3820 封闭，中心线两侧各 7 米。运输车进入封闭区即归零；扫码点位于东口外，围挡保留在原位。",
       "h": 32,
       "w": 96,
       "x": 3500,
@@ -2826,6 +2851,23 @@
         "moveSpeed": 15,
         "moveDistance": 50
       }
+    },
+    {
+      "id": "roadblock_scan_point",
+      "type": "obstacle",
+      "subtype": "beacon",
+      "rotation": 0,
+      "props": {
+        "scan_radius_m": 10,
+        "closed_x_min": 2980,
+        "closed_x_max": 3820,
+        "closed_half_width_m": 7
+      },
+      "note": "封路扫码点：东口外 5 米。A、B、C 全部确认后，任一参赛车在 10 米内调用 scan。",
+      "h": 28,
+      "w": 24,
+      "x": 3880,
+      "y": 1000
     }
   ]
 }
