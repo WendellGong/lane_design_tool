@@ -145,7 +145,7 @@ const INSPECTOR_SCHEMA = {
       { key: 'lanes', label: '车道数', type: 'number', min: 1, max: 8, step: 1, resize: true },
       { key: 'laneW', label: '车道宽度（国标）', type: 'select', options: LANE_W, resize: true },
       { key: 'length_m', label: '长度', unit: 'm', type: 'number', min: 5, max: 200, step: 1, resize: true },
-      { key: 'twoWay', label: '双向通行（中央双黄线）', type: 'check' }
+    { key: 'twoWay', label: '双向通行', type: 'check' }
     ]
   }],
   variable_lane: [{
@@ -329,8 +329,12 @@ RENDER.straight = el => {
   out += line(-w / 2 + 1.5, -h / 2, -w / 2 + 1.5, h / 2, C.white, 1.6);
   out += line(w / 2 - 1.5, -h / 2, w / 2 - 1.5, h / 2, C.white, 1.6);
   if (p.twoWay) {
-    out += line(-2.2, -h / 2, -2.2, h / 2, C.yellow, 1.6);
-    out += line(2.2, -h / 2, 2.2, h / 2, C.yellow, 1.6);
+    if (p.centerLine === 'dashed') {
+      out += dashLine(0, -h / 2, 0, h / 2);
+    } else {
+      out += line(-2.2, -h / 2, -2.2, h / 2, C.yellow, 1.6);
+      out += line(2.2, -h / 2, 2.2, h / 2, C.yellow, 1.6);
+    }
     for (let i = 1; i < p.lanes / 2; i++) {
       out += dashLine(-i * lwpx, -h / 2, -i * lwpx, h / 2);
       out += dashLine(i * lwpx, -h / 2, i * lwpx, h / 2);
